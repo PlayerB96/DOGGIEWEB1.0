@@ -1,0 +1,139 @@
+.nav-container{
+    display: flex;
+    flex-direction: column;
+    font-family: "Montserrat";
+    font-size: 12.6px;
+    font-weight: 500;
+    .features{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        background: #E3E4E6;
+        padding: 5px 0 5px 0;
+        border-bottom: 2.5px solid #C6C6C6;
+        .search{
+            padding-top: 10px;
+            height: 15px;
+            margin: 0 20px 0 0;
+            // background-color: red;
+        }
+        
+        .search:hover{
+            cursor: pointer;
+
+        }
+
+        .support{
+            margin: 0 20px;
+            padding-top: 10px;
+            // background-color: red;
+            align-content: center;
+        }
+
+        .support{
+            cursor: pointer;
+        }
+
+        .contact{
+            margin: 0 20px;
+            padding-top: 10px;
+            // background-color: red;
+        }
+
+        .contact:hover{
+            cursor: pointer;
+        }
+
+        .login-btn{
+            font-family: "Montserrat";;
+            font-size: 12.6px;
+            font-weight: 500;
+            width: fit-content;
+            height: 35px;
+            background: #FFC700;
+            border: none;
+            border-radius: 8px;
+            margin: 0 100px 0 20px;
+
+            .log-arrow{
+                height: 8px;
+                width: auto;
+                margin-left: 5px;
+            }
+        }
+
+        .login-btn:hover{
+            cursor: pointer;
+        }
+    }
+
+    .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 10px 100px 0 100px;
+        height: 80px;
+        .nav-logo{
+            height: 60px;
+            width: auto;
+        }
+
+        .nav-logo:hover{
+            cursor: pointer;
+        }
+
+        .nav-service{
+            margin-top: 20px;
+        }
+
+        .nav-service:hover{
+            cursor: pointer;
+        }
+
+        .nav-resources{
+            margin-top: 20px;
+        }
+
+        .nav-resources:hover{
+            cursor: pointer;
+        }
+
+        .nav-news{
+            margin-top: 20px;
+        }
+
+        .nav-news:hover{
+            cursor: pointer;
+        }
+
+        .nav-about{
+            margin-top: 20px;
+        }
+
+        .nav-about:hover{
+            cursor: pointer;
+        }
+
+        .nav-btn{
+            font-family: "Montserrat";
+            margin-top: 8px;
+            height: 40px;
+            width: auto;
+            border-radius: 8px;
+            border: none;
+            background: #101429;
+            color: #fff;
+            border: 1px solid #fff;
+            padding: 0 20px;
+        }
+
+
+        .nav-btn:hover{
+            cursor: pointer;
+            background: #fff;
+            color: #101429;
+            border: 1px solid #101429;
+            
+        }
+    }
+}
