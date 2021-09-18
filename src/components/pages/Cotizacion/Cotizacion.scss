@@ -1,0 +1,235 @@
+$alto_input: 70px;
+
+.form-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px 0 10px 0;
+
+    .left-container {
+        display: flex;
+        flex-direction: row;
+        margin: 20px 20px 20px 100px;
+        .img-container {
+            background: #e3e4e6;
+            border-radius: 8px;
+
+            .student {
+                width: 550px;
+                height: 1000px;
+                padding: 25px 25px 25px 25px;
+            }
+        }
+    }
+
+    .right-container {
+        display: flex;
+        flex-direction: column;
+        margin: 20px 100px 20px 20px;
+        .data-container {
+            // background: red;
+            border-radius: 8px;
+            width: 800px;
+            .titulo {
+                font-family: "Montserrat";
+                font-size: 20px;
+                font-weight: 200;
+                margin: 10px 0 5px 0;
+                text-align: center;
+            }
+
+            .primera-fila {
+                display: flex;
+                flex-direction: row;
+                margin: 20px 20px 20px 20px;
+                justify-content: space-around;
+
+                .nombre {
+                    .input-nombre {
+                        width: 300px;
+                        height: $alto_input;
+                        border-radius: 8px;
+                        border-color: #e3e4e6;
+                    }
+                }
+                .apellido {
+                    .input-apellido {
+                        width: 300px;
+                        height: $alto_input;
+                        border-radius: 8px;
+                        border-color: #e3e4e6;
+                    }
+                }
+            }
+
+            .segunda-fila {
+                display: flex;
+                flex-direction: row;
+                margin: 20px 20px 20px 20px;
+                justify-content: center;
+                .correo {
+                    .input-correo {
+                        width: 680px;
+                        height: $alto_input;
+                        border-radius: 8px;
+                        border-color: #e3e4e6;
+                    }
+                }
+            }
+            .tercera-fila {
+                display: flex;
+                flex-direction: row;
+                margin: 20px 20px 20px 20px;
+                justify-content: space-around;
+                .telefono {
+                    .input-telefono {
+                        width: 300px;
+                        height: $alto_input;
+                        border-radius: 8px;
+                        border-color: #e3e4e6;
+                    }
+                }
+
+                .pais {
+                    .input-pais {
+                        width: 300px;
+                        height: $alto_input;
+                        border-radius: 8px;
+                        border-color: #e3e4e6;
+                    }
+                }
+            }
+
+            .cuarta-fila {
+                display: flex;
+                flex-direction: row;
+                margin: 20px 20px 20px 20px;
+                justify-content: center;
+                .requerimiento {
+                    .input-requerimiento {
+                        width: 680px;
+                        height: $alto_input;
+                        border-radius: 8px;
+                        border-color: #e3e4e6;
+                    }
+                }
+            }
+
+            .quinta-fila {
+                display: flex;
+                flex-direction: row;
+                margin: 20px 20px 20px 20px;
+                justify-content: center;
+                .especialidad {
+                    .input-especialidad {
+                        width: 680px;
+                        height: $alto_input;
+                        border-radius: 8px;
+                        border-color: #e3e4e6;
+                    }
+                }
+            }
+
+            .sexta-fila {
+                display: flex;
+                flex-direction: row;
+                margin: 20px 20px 20px 20px;
+                justify-content: center;
+                .univ-org {
+                    .input-univ-org {
+                        width: 680px;
+                        height: $alto_input;
+                        border-radius: 8px;
+                        border-color: #e3e4e6;
+                    }
+                }
+            }
+
+            .septima-fila {
+                display: flex;
+                flex-direction: row;
+                margin: 20px 20px 20px 20px;
+                justify-content: space-around;
+                .descuento {
+                    .input-descuento {
+                        width: 300px;
+                        height: $alto_input;
+                        border-radius: 8px;
+                        border-color: #e3e4e6;
+                    }
+                }
+
+                .codigo {
+                    .input-codigo {
+                        width: 300px;
+                        height: $alto_input;
+                        border-radius: 8px;
+                        border-color: #e3e4e6;
+                    }
+                }
+            }
+
+            .octava-fila {
+                display: flex;
+                flex-direction: row;
+                margin: 20px 20px 20px 20px;
+                justify-content: center;
+                .entrega {
+                    .input-entrega {
+                        width: 680px;
+                        height: $alto_input;
+                        border-radius: 8px;
+                        border-color: #e3e4e6;
+                    }
+                }
+            }
+
+            .novena-fila {
+                display: flex;
+                flex-direction: row;
+                margin: 20px 20px 20px 20px;
+                justify-content: center;
+                .avance {
+                    .input-avance {
+                        width: 680px;
+                        height: $alto_input;
+                        border-radius: 8px;
+                        border-color: #e3e4e6;
+                    }
+                }
+            }
+            .decima-fila {
+                display: flex;
+                flex-direction: row;
+                margin: 20px 20px 20px 20px;
+                justify-content: center;
+                .detalles {
+                    .input-detalles {
+                        width: 680px;
+                        height: $alto_input;
+                        border-radius: 8px;
+                        border-color: #e3e4e6;
+                    }
+                }
+            }
+            .undecima-fila{
+                display: flex;
+                flex-direction: row;
+                margin: 20px 20px 20px 20px;
+                justify-content: center;
+                
+                .boton{
+                    width: 200px;
+                    height: 60px;
+                    border-radius: 8px;
+                    background: black;
+                   .text{
+                       color:white;
+                       font-family: "Montserrat";
+                   }
+                    
+                }
+            }
+        }
+    }
+}
