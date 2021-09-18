@@ -14,7 +14,7 @@ export default function Cotizacion(props) {
             <div className="right-container">
                 <div className="data-container">
                     <div className="titulo">
-                        <h1>Solicita una cotizacion</h1>
+                        <h1>Solicita una cotización</h1>
                     </div>
                     <div className="primera-fila">
                         <div className="nombre">

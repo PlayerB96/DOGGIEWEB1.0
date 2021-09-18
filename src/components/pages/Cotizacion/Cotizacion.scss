@@ -10,10 +10,10 @@ $alto_input: 70px;
         display: flex;
         flex-direction: row;
         margin: 20px 20px 20px 100px;
+        align-items: center;
         .img-container {
             background: #e3e4e6;
             border-radius: 8px;
-
             .student {
                 width: 550px;
                 height: 1000px;
@@ -46,6 +46,7 @@ $alto_input: 70px;
 
                 .nombre {
                     .input-nombre {
+                        border-style: solid;
                         width: 300px;
                         height: $alto_input;
                         border-radius: 8px;
@@ -54,6 +55,7 @@ $alto_input: 70px;
                 }
                 .apellido {
                     .input-apellido {
+                        border-style: solid;
                         width: 300px;
                         height: $alto_input;
                         border-radius: 8px;
@@ -69,6 +71,7 @@ $alto_input: 70px;
                 justify-content: center;
                 .correo {
                     .input-correo {
+                        border-style: solid;
                         width: 680px;
                         height: $alto_input;
                         border-radius: 8px;
@@ -83,6 +86,7 @@ $alto_input: 70px;
                 justify-content: space-around;
                 .telefono {
                     .input-telefono {
+                        border-style: solid;
                         width: 300px;
                         height: $alto_input;
                         border-radius: 8px;
@@ -92,6 +96,7 @@ $alto_input: 70px;
 
                 .pais {
                     .input-pais {
+                        border-style: solid;
                         width: 300px;
                         height: $alto_input;
                         border-radius: 8px;
@@ -107,6 +112,7 @@ $alto_input: 70px;
                 justify-content: center;
                 .requerimiento {
                     .input-requerimiento {
+                        border-style: solid;
                         width: 680px;
                         height: $alto_input;
                         border-radius: 8px;
@@ -122,6 +128,7 @@ $alto_input: 70px;
                 justify-content: center;
                 .especialidad {
                     .input-especialidad {
+                        border-style: solid;
                         width: 680px;
                         height: $alto_input;
                         border-radius: 8px;
@@ -137,6 +144,7 @@ $alto_input: 70px;
                 justify-content: center;
                 .univ-org {
                     .input-univ-org {
+                        border-style: solid;
                         width: 680px;
                         height: $alto_input;
                         border-radius: 8px;
@@ -152,6 +160,7 @@ $alto_input: 70px;
                 justify-content: space-around;
                 .descuento {
                     .input-descuento {
+                        border-style: solid;
                         width: 300px;
                         height: $alto_input;
                         border-radius: 8px;
@@ -161,6 +170,7 @@ $alto_input: 70px;
 
                 .codigo {
                     .input-codigo {
+                        border-style: solid;
                         width: 300px;
                         height: $alto_input;
                         border-radius: 8px;
@@ -176,6 +186,7 @@ $alto_input: 70px;
                 justify-content: center;
                 .entrega {
                     .input-entrega {
+                        border-style: solid;
                         width: 680px;
                         height: $alto_input;
                         border-radius: 8px;
@@ -191,6 +202,7 @@ $alto_input: 70px;
                 justify-content: center;
                 .avance {
                     .input-avance {
+                        border-style: solid;
                         width: 680px;
                         height: $alto_input;
                         border-radius: 8px;
@@ -205,6 +217,7 @@ $alto_input: 70px;
                 justify-content: center;
                 .detalles {
                     .input-detalles {
+                        border-style: solid;
                         width: 680px;
                         height: $alto_input;
                         border-radius: 8px;
@@ -212,22 +225,21 @@ $alto_input: 70px;
                     }
                 }
             }
-            .undecima-fila{
+            .undecima-fila {
                 display: flex;
                 flex-direction: row;
                 margin: 20px 20px 20px 20px;
                 justify-content: center;
-                
-                .boton{
+
+                .boton {
                     width: 200px;
                     height: 60px;
                     border-radius: 8px;
                     background: black;
-                   .text{
-                       color:white;
-                       font-family: "Montserrat";
-                   }
-                    
+                    .text {
+                        color: white;
+                        font-family: "Montserrat";
+                    }
                 }
             }
         }
