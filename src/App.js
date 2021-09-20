@@ -1,13 +1,12 @@
-import Content from "./components/Content/Content";
+import Home from "./pages/Home/Home";
 import Navigation from "./components/Nav-Bar/Navigation";
-import Cotizacion from "./components/pages/Cotizacion/Cotizacion";
+// import Cotizacion from "./pages/Cotizacion/Cotizacion";
 
 function App() {
   return (
     <div >
       <Navigation />
-      {/* <Content /> */}
-      <Cotizacion/>
+      <Home/>
     </div>
   );
 }

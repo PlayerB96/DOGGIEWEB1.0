@@ -1,7 +1,7 @@
 import './Content.scss';
-import reader from '../../assets/imgs/reader.png';
-import student from '../../assets/imgs/student.png';
-import arrow from '../../assets/imgs/arrow.svg';
+import reader from '../../../assets/imgs/reader.png';
+import student from '../../../assets/imgs/student.png';
+import arrow from '../../../assets/imgs/arrow.svg';
 
 export default function Content(props){
 

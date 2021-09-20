@@ -1,5 +1,5 @@
-import Navigation from "../../Nav-Bar/Navigation"
-import student from "../../../assets/imgs/Form_student.png";
+// import Navigation from "../../Nav-Bar/Navigation"
+import student from "../../assets/imgs/Form_student.png";
 import './Cotizacion.scss'
 
 export default function Cotizacion(props) {
