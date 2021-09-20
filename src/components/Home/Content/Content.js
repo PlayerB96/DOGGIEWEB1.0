@@ -1,7 +1,9 @@
 import './Content.scss';
-import reader from '../../../assets/imgs/reader.png';
+import woman from '../../../assets/imgs/woman.png';
 import student from '../../../assets/imgs/student.png';
 import arrow from '../../../assets/imgs/arrow.svg';
+import uparrow from '../../../assets/imgs/uparrow.svg';
+import wssplogo from '../../../assets/imgs/wssplogo.svg';
 
 export default function Content(props){
 
@@ -30,7 +32,7 @@ export default function Content(props){
                 </div>
             </div>
             <div className="block-image">
-                <img className="reader" src={reader} alt="reader"/>
+                <img className="woman" src={woman} alt="woman"/>
             </div>
         </div>
     );
