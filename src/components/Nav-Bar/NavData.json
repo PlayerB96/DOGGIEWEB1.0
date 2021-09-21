@@ -1,0 +1,15 @@
+{
+    "features" : {
+        "support" : "Soporte",
+        "contact" : "Contacto",
+        "login" : "Login"
+    },
+
+    "navigation" :{
+        "service" : "Servicios",
+        "resources" : "Recursos",
+        "news" : "Noticias & Eventos",
+        "aboutus" : "Sobre Nosotros",
+        "apply" : "Solicita tu cotización"
+    }
+}

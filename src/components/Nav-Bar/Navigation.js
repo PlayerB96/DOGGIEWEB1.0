@@ -4,37 +4,38 @@ import logArrow from '../../assets/imgs/logArrow.svg'
 import logo from '../../assets/imgs/logo.svg'
 
 export default function Navigation(props){
+
     return(
         <div className="nav-container">
             <div className="features">
                 <img className="search" src={search} alt="serch"/>
                 <div className="support">
-                    Soporte
+                    {props.data.features.support}
                 </div>
                 <div className="contact">
-                    Contactanos
+                    {props.data.features.contact}
                 </div>
                 <button className="login-btn">
-                    Login
+                    {props.data.features.login}
                     <img className="log-arrow" src={logArrow} alt="logArrow"/>
                 </button>
             </div>
             <div className="nav">
                 <img className="nav-logo" src={logo} alt="logo"/>
                 <button className="nav-g-btn">
-                    Servicio
+                    {props.data.navigation.service}
                 </button>
                 <button className="nav-g-btn">
-                    Recursos
+                    {props.data.navigation.resources}
                 </button>
                 <button className="nav-g-btn">
-                    Noticias & Eventos
+                    {props.data.navigation.news}
                 </button>
                 <button className="nav-g-btn">
-                    Sobre nosotros
+                    {props.data.navigation.aboutus}
                 </button>
                 <button className="nav-btn">
-                    Solicita tu cotización
+                    {props.data.navigation.apply}
                 </button>
             </div>
         </div>

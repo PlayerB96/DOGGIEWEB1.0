@@ -1,5 +1,5 @@
 import React from 'react'
-import Content from "../../components/Home/Content/Content";
+import Presentation from "../../components/Home/Presentation/Presentation";
 import Benefits from "../../components/Home/Benefits/Benefits";
 import HomeData from "./HomeData.json"
 // const dataBenefits = [
@@ -15,7 +15,7 @@ import HomeData from "./HomeData.json"
 export default function Home() {
     return (
         <div>
-            <Content/>
+            <Presentation data={HomeData.presentation}/>
             {/* FALTA CUADRO */}
             <Benefits data={HomeData.benefits}/>
         </div>
