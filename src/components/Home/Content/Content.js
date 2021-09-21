@@ -25,7 +25,7 @@ export default function Content(props){
                             Juntos podemos
                         </div>
                         <div className="video-redir">
-                            Ver video
+                            Mira cómo lo hacemos
                             <img className="arrow" src={arrow} alt="arrow"/>
                         </div>
                     </div>

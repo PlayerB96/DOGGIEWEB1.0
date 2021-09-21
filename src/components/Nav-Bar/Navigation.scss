@@ -1,9 +1,14 @@
 .nav-container{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #fff;
     display: flex;
     flex-direction: column;
     font-family: "Montserrat";
     font-size: 12.6px;
     font-weight: 500;
+    z-index: 0;
     .features{
         display: flex;
         flex-direction: row;
@@ -82,35 +87,19 @@
             cursor: pointer;
         }
 
-        .nav-service{
+        .nav-g-btn{
             margin-top: 20px;
+            font-family: "Montserrat";
+            margin-top: 8px;
+            height: 40px;
+            width: 150px;
+            background: #fff;
+            border: 1.5px solid #C6C6C6;
+            box-shadow: 1px 1px 3px #C6C6C6;
+            border-radius: 8px;
         }
 
-        .nav-service:hover{
-            cursor: pointer;
-        }
-
-        .nav-resources{
-            margin-top: 20px;
-        }
-
-        .nav-resources:hover{
-            cursor: pointer;
-        }
-
-        .nav-news{
-            margin-top: 20px;
-        }
-
-        .nav-news:hover{
-            cursor: pointer;
-        }
-
-        .nav-about{
-            margin-top: 20px;
-        }
-
-        .nav-about:hover{
+        .nav-g-btn:hover{
             cursor: pointer;
         }
 

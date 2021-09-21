@@ -4,17 +4,16 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 0 0 10px 0;
-
+    margin: 150px 0 10px 0;
+    z-index: -1;
     .block-image{
         background: #E3E4E6;
         border-radius: 15px;
         margin: 0 100px 0 50px;
-
-        .reader{
-            width: 450px;
+        .woman{
+            width: 440px;
             height: auto;
-            padding: 10px;
+            padding: 15px 15px 0px 15px;
         }
     }
 
@@ -25,7 +24,7 @@
         //background: red;
         .info{
             font-family: "Montserrat";
-            font-size: 12.6px;
+            font-size: 13px;
             font-weight: 500;
             margin: 10px 0 5px 0;
         }
@@ -40,7 +39,7 @@
             border: none;
             margin: 13px 0 13px 0;
             width: 240px;
-            height: 7vh;
+            height: 45px;
         }
         
         .b-button:hover{

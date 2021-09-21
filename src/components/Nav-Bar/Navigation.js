@@ -21,18 +21,18 @@ export default function Navigation(props){
             </div>
             <div className="nav">
                 <img className="nav-logo" src={logo} alt="logo"/>
-                <div className="nav-service">
+                <button className="nav-g-btn">
                     Servicio
-                </div>
-                <div className="nav-resources">
+                </button>
+                <button className="nav-g-btn">
                     Recursos
-                </div>
-                <div className="nav-news">
+                </button>
+                <button className="nav-g-btn">
                     Noticias & Eventos
-                </div>
-                <div className="nav-about">
+                </button>
+                <button className="nav-g-btn">
                     Sobre nosotros
-                </div>
+                </button>
                 <button className="nav-btn">
                     Solicita tu cotización
                 </button>
