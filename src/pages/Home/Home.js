@@ -1,11 +1,13 @@
 import React from 'react'
 import Content from "../../components/Home/Content/Content";
-import Cotizacion  from "../../pages/Cotizacion/Form";
+import Benefits from "../../components/Home/Benefits/Benefits";
 
 export default function Home() {
     return (
         <div>
-            <Cotizacion/>
+            <Content/>
+            {/* FALTA CUADRO */}
+            <Benefits/>
         </div>
     )
 }
