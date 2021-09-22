@@ -1,14 +1,13 @@
 {
     "presentation": {
-        "ptn" : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad ",
-        "apply" : "Solicita tu Cotización",
-        "phrase" : "Juntos podemos",
-        "seeVid" : "Mira como lo hacemos"
+        "ptn": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad ",
+        "apply": "Solicita tu Cotización",
+        "phrase": "Juntos podemos",
+        "seeVid": "Mira como lo hacemos"
     },
-    
     "benefits": {
-        "t1" : "BENEFICIOS QUE",
-        "t2" : "TE OFRECEMOS",
+        "t1": "BENEFICIOS QUE",
+        "t2": "TE OFRECEMOS",
         "listData": [
             "Originalidad de trabajo elaborado.",
             "Levantamiento de observaciones al 100%, hasta que se apruebe el trabajo.",
@@ -18,8 +17,19 @@
             "Cronograma de entregables (semanal) para que usted pueda dar seguimiento.",
             "Hasta 2 sesiones de dos horas en la semana para coordinaciones o explicaciones de avance."
         ]
+    },
+    "about": {
+        "left_t1": "QUIENES",
+        "left_t2": "SOMOS",
+        "left_text_1": "Somos como equipo multidisciplinario comprometido con \nla investigación científica y académica, nuestro equipo está \nconformado por profesionales con más de 10 años de \nexperiencia en el ámbito de la investigación a nivel \nnacional e  internacional habiendo realizado trabajos como \npor ejemplo para la ",
+        "univ_1": "Universidad de Sao Paulo",
+        "left_text_2": " de Brasil, \n",
+        "univ_2": "Universidad Católica ",
+        "left_text_3": "de Chile, con ",
+        "univ_3": "Universidad europea de\nMadrid ",
+        "left_text_4": "entre otras.",
+        "right_text_1": "Estamos convencidos \nde que el cambio de \nuna nación empieza por \n",
+        "right_text_orange":"las propuestas e\nimplementación de la\ninvestigación científica y\nacadémica,",
+        "right_text_2":" por eso que\nqueremos que usted\nsea parte de ese gran\ncambio."
     }
-
-    
 }
-
