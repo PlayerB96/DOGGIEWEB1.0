@@ -26,14 +26,12 @@ export default function about_us_frame(props) {
 
             <div className="right">
 
-                <div className="gray-container">
-                    <img className="imagen" src={about_img} alt="" />
-                    <p className="text_right">
-                        {props.data.right_text_1}
-                        <span className="naranja"> {props.data.right_text_orange}</span>
-                        {props.data.right_text_2}
-                        </p>
-                </div>
+                <img className="imagen" src={about_img} alt="" />
+                <p className="text_right">
+                    {props.data.right_text_1}
+                    <span className="naranja"> {props.data.right_text_orange}</span>
+                    {props.data.right_text_2}
+                </p>
             </div>
         </div>
     );
