@@ -1,6 +1,7 @@
 import React from 'react'
 import Presentation from "../../components/Home/Presentation/Presentation";
 import Benefits from "../../components/Home/Benefits/Benefits";
+import Services from '../../components/Home/OurServices/Services';
 import HomeData from "./HomeData.json"
 // const dataBenefits = [
 //     "Originalidad de trabajo elaborado.",
@@ -18,6 +19,7 @@ export default function Home() {
             <Presentation data={HomeData.presentation}/>
             {/* FALTA CUADRO */}
             <Benefits data={HomeData.benefits}/>
+            <Services/>
         </div>
     )
 }
