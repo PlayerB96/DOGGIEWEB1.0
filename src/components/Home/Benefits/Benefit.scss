@@ -1,30 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+
+$middlePercent: 45%;
 .benefitsContainer {
-    .t1{
-        color: #11162A;
+    
+    margin-top: 10%;
+    width: 100%;
+    position: relative;
+    .t1 {
+        color: #11162a;
         text-align: center;
+        font-size: 350%;
+        font-weight: 600;
     }
-    .t2{
-        color: #F07600;
+    .t2 {
+        color: #f07600;
         text-align: center;
+        font-size: 350%;
+        font-weight: 600;
     }
     .infoContainer {
         display: flex;
         flex-direction: row;
+        padding-left: 6%;
+        padding-right: 6%;
+        margin-top: 5%;
+        margin-bottom: 5%;
         .imageContainer {
-            border: 5px solid #E3E4E6;
-            background-color: #E3E4E6;
+            border: 5px solid #e3e4e6;
+            background-color: #e3e4e6;
+            align-self: center;
             border-radius: 3%;
             padding: 2%;
-            height: auto;
-            .image{
+            height: 100%;
+            width: $middlePercent;
+
+            .image {
                 width: 100%;
                 height: auto;
             }
-            
         }
 
         .list {
+            align-self: center;
+            margin-left: 3%;
+            width: 100%- $middlePercent;
+
             .item {
+                font-family: "Roboto";
+                margin-bottom: 5%;
+                font-size: 200%;
+                font-weight: 350;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    .benefitsContainer {
+        margin-top: 10%;
+        width: 100%;
+        .t1 {
+            font-size: 350%;
+            font-weight: 600;
+        }
+        .t2 {
+            font-size: 350%;
+            font-weight: 600;
+        }
+        .infoContainer {
+            padding-left: 6%;
+            padding-right: 6%;
+            margin-top: 5%;
+            margin-bottom: 5%;
+            .imageContainer {
+                border-radius: 3%;
+                padding: 2%;
+                height: 100%;
+
+                .image {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+
+            .list {
+                margin-left: 2%;
+
+                .item {
+                    margin-bottom: 5%;
+                    font-size: 200%;
+                    font-weight: 350;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .benefitsContainer {
+        margin-top: 10%;
+        width: 100%;
+        .t1 {
+            font-size: 350%;
+            font-weight: 600;
+            transition: 0.5s;
+        }
+        .t2 {
+            font-size: 350%;
+            font-weight: 600;
+            transition: 0.5s;
+        }
+        .infoContainer {
+            padding-left: 6%;
+            padding-right: 6%;
+            margin-top: 5%;
+            margin-bottom: 5%;
+            transition: 0.5s;
+            .imageContainer {
+                border-radius: 3%;
+                padding: 2%;
+                height: 100%;
+                transition: 0.5s;
+
+                .image {
+                    width: 100%;
+                    height: auto;
+                    transition: 0.5s;
+                }
+            }
+
+            .list {
+                margin-left: 2%;
+                padding-left: 5%;
+                transition: 0.5s;
+
+                .item {
+                    margin-bottom: 5%;
+                    font-size: 130%;
+                    font-weight: 350;
+                    transition: 0.5s;
+                }
             }
         }
     }

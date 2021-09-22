@@ -12,7 +12,7 @@ export default function Benefits(props) {
     }
 
     const listItems = props.data.listData.map((item) =>
-        <li key={item.toString()}>
+        <li className="item" key={item.toString()}>
             {item}
         </li>
     );
