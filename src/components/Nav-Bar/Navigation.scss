@@ -6,7 +6,7 @@
     display: flex;
     flex-direction: column;
     font-family: "Montserrat";
-    font-size: 12.6px;
+    
     font-weight: 500;
     z-index: 50;
     .features{
@@ -14,11 +14,9 @@
         flex-direction: row;
         justify-content: flex-end;
         background: #E3E4E6;
-        padding: 5px 0 5px 0;
         border-bottom: 2.5px solid #C6C6C6;
         .search{
             padding-top: 10px;
-            height: 15px;
             margin: 0 20px 0 0;
             // background-color: red;
         }
@@ -29,13 +27,12 @@
         }
 
         .support{
-            margin: 0 20px;
             padding-top: 10px;
             // background-color: red;
             align-content: center;
         }
 
-        .support{
+        .support:hover{
             cursor: pointer;
         }
 
@@ -51,10 +48,10 @@
 
         .login-btn{
             font-family: "Montserrat";;
-            font-size: 12.6px;
+            
             font-weight: 500;
             width: fit-content;
-            height: 35px;
+            
             background: #FFC700;
             border: none;
             border-radius: 8px;
@@ -88,11 +85,7 @@
         }
 
         .nav-g-btn{
-            margin-top: 20px;
             font-family: "Montserrat";
-            margin-top: 8px;
-            height: 40px;
-            width: 150px;
             background: #fff;
             border: 1.5px solid #C6C6C6;
             box-shadow: 1px 1px 3px #C6C6C6;
@@ -105,9 +98,6 @@
 
         .nav-btn{
             font-family: "Montserrat";
-            margin-top: 8px;
-            height: 40px;
-            width: auto;
             border-radius: 8px;
             border: none;
             background: #101429;
@@ -123,6 +113,296 @@
             color: #101429;
             border: 1px solid #101429;
             
+        }
+    }
+}
+
+@media screen and (max-width: 2560px){
+    .nav-container{
+        
+        .features{
+            padding: 10px 0 10px 0;
+            .search{
+                height: 30px;
+            }
+            .support{
+                font-size: 22px;
+                margin: 0 30px;
+            }
+            .contact{
+                font-size: 22px;
+                margin: 0 30px;
+            }
+            .login-btn{
+                font-size: 22px;
+                height: 45px;
+                
+            }
+        }
+
+        .nav{
+            margin: 15px 100px 0 100px;
+            .nav-logo{
+                height: 100px;
+                width: auto;
+                transition: 0.5s;
+            }
+            
+            .nav-g-btn{
+                font-size: 22px;
+                height: 60px;
+                width: 300px;
+                margin-top: 25px;
+                
+            }
+
+            .nav-btn{
+                font-size: 22px;
+                height: 60px;
+                width: auto;
+                margin-top: 25px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1920px){
+    .nav-container{
+        
+        .features{
+            padding: 10px 0 10px 0;
+            .search{
+                height: 25px;
+            }
+            .support{
+                font-size: 20px;
+                margin: 0 30px;
+            }
+            .contact{
+                font-size: 20px;
+                margin: 0 30px;
+            }
+            .login-btn{
+                font-size: 20px;
+                height: 45px;
+                
+            }
+        }
+
+        .nav{
+            margin: 15px 100px 0 100px;
+            .nav-logo{
+                height: 90px;
+                width: auto;
+                transition: 0.5s;
+            }
+            
+            .nav-g-btn{
+                font-size: 19px;
+                height: 55px;
+                width: 280px;
+                margin-top: 25px;
+                
+            }
+
+            .nav-btn{
+                font-size: 19px;
+                height: 55px;
+                width: auto;
+                margin-top: 25px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1760px){
+    .nav-container{
+        .features{
+            padding: 5px 0 5px 0;
+            .search{
+                height: 20px;
+            }
+            .support{
+                font-size: 18px;
+                margin: 0 20px;
+            }
+            .contact{
+                font-size: 18px;
+                margin: 0 20px;
+            }
+            .login-btn{
+                font-size: 18px;
+                height: 40px;
+                
+            }
+        }
+
+        .nav{
+            margin: 10px 100px 0 100px;
+            .nav-logo{
+                height: 80px;
+                width: auto;
+                transition: 0.5s;
+            }
+            
+            .nav-g-btn{
+                font-size: 18px;
+                height: 45px;
+                width: 200px;
+                margin-top: 25px;
+                
+            }
+
+            .nav-btn{
+                font-size: 18px;
+                margin-top: 25px;
+                height: 45px;
+                width: auto;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1500px){
+    .nav-container{
+        .features{
+            padding: 5px 0 5px 0;
+            .search{
+                height: 18px;
+            }
+            .support{
+                font-size: 15px;
+                margin: 0 20px;
+            }
+            .contact{
+                font-size: 15px;
+                margin: 0 20px;
+            }
+            .login-btn{
+                font-size: 15px;
+                height: 35px;
+                
+            }
+        }
+
+        .nav{
+            margin: 10px 100px 0 100px;
+            .nav-logo{
+                height: 65px;
+                width: auto;
+                transition: 0.5s;
+            }
+            
+            .nav-g-btn{
+                font-size: 15px;
+                height: 40px;
+                width: 180px;
+                margin-top: 15px;
+                
+            }
+
+            .nav-btn{
+                font-size: 15px;
+                margin-top: 15px;
+                height: 40px;
+                width: auto;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1366px){
+    .nav-container{
+        .features{
+            padding: 5px 0 5px 0;
+            .search{
+                height: 15px;
+            }
+            .support{
+                font-size: 12.6px;
+                margin: 0 20px;
+            }
+            .contact{
+                font-size: 12.6px;
+                margin: 0 20px;
+            }
+            .login-btn{
+                font-size: 12.6px;
+                height: 35px;
+                
+            }
+        }
+
+        .nav{
+            margin: 10px 100px 0 100px;
+            .nav-logo{
+                height: 60px;
+                width: auto;
+                transition: 0.5s;
+            }
+            
+            .nav-g-btn{
+                font-size: 12.6px;
+                height: 40px;
+                width: 150px;
+                margin-top: 12px;
+                
+            }
+
+            .nav-btn{
+                font-size: 12.6px;
+                margin-top: 12px;
+                height: 40px;
+                width: auto;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1100px){
+    .nav-container{
+        .features{
+            padding: 5px 0 5px 0;
+            .search{
+                height: 12px;
+            }
+            .support{
+                font-size: 11px;
+                margin: 0 20px;
+            }
+            .contact{
+                font-size: 11px;
+                margin: 0 20px;
+            }
+            .login-btn{
+                font-size: 11px;
+                height: 30px;
+                
+            }
+        }
+
+        .nav{
+            margin: 10px 100px 0 100px;
+            .nav-logo{
+                height: 55px;
+                width: auto;
+                transition: 0.5s;
+            }
+            
+            .nav-g-btn{
+                font-size: 11px;
+                height: 35px;
+                width: 130px;
+                margin-top: 8px;
+                
+            }
+
+            .nav-btn{
+                font-size: 11px;
+                margin-top: 8px;
+                height: 35px;
+                width: auto;
+            }
         }
     }
 }
