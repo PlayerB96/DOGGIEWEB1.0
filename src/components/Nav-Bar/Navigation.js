@@ -3,12 +3,14 @@ import search from '../../assets/imgs/search.svg'
 import logArrow from '../../assets/imgs/logArrow.svg'
 import logo from '../../assets/imgs/logo.svg'
 
-export default function Navigation(props){
+import { useHistory } from "react-router-dom";
 
-    return(
+export default function Navigation(props) {
+    const history = useHistory();
+    return (
         <div className="nav-container">
             <div className="features">
-                <img className="search" src={search} alt="serch"/>
+                <img className="search" src={search} alt="serch" />
                 <div className="support">
                     {props.data.features.support}
                 </div>
@@ -17,12 +19,12 @@ export default function Navigation(props){
                 </div>
                 <button className="login-btn">
                     {props.data.features.login}
-                    <img className="log-arrow" src={logArrow} alt="logArrow"/>
+                    <img className="log-arrow" src={logArrow} alt="logArrow" />
                 </button>
             </div>
             <div className="nav">
-                <img className="nav-logo" src={logo} alt="logo"/>
-                <button className="nav-g-btn">
+                <img className="nav-logo" src={logo} alt="logo" onClick={()=>{history.push("/")}}/>
+                <button className="nav-g-btn" onClick={()=>history.push("/form")}>
                     {props.data.navigation.service}
                 </button>
                 <button className="nav-g-btn">
