@@ -29,7 +29,14 @@
         "univ3": "Universidad europea de\nMadrid ",
         "leftText4": "entre otras.",
         "rightText1": "Estamos convencidos \nde que el cambio de \nuna nación empieza por \n",
-        "rightTextOrange":"las propuestas e\nimplementación de la\ninvestigación científica y\nacadémica,",
-        "rightText2":" por eso que\nqueremos que usted\nsea parte de ese gran\ncambio."
+        "rightTextOrange": "las propuestas e\nimplementación de la\ninvestigación científica y\nacadémica,",
+        "rightText2": " por eso que\nqueremos que usted\nsea parte de ese gran\ncambio."
+    },
+    "finalSection": {
+        "tittle": "abcd",
+        "s1": "Lorem ipsum dolor sit amet consectetur adipiscing elit scelerisque, sodales vel elementum lacus torquent posuere habitasse cum, quisque purus placerat dui consequat augue nulla. Blandit erat venenatis sed mus nam ridiculus vestibulum integer natoque hendrerit condimentum non, gravida a hac vivamus cursus nisl eleifend inceptos mattis convallis tellus. ",
+        "s2": "Lorem ipsum dolor sit amet consectetur adipiscing elit scelerisque, sodales vel elementum lacus torquent posuere habitasse cum, quisque purus placerat dui consequat augue nulla. Blandit erat venenatis sed mus nam ridiculus vestibulum integer natoque hendrerit condimentum non, gravida a hac vivamus cursus nisl eleifend inceptos mattis convallis tellus. ",
+        "s3": "Lorem ipsum dolor sit amet consectetur adipiscing elit scelerisque, sodales vel elementum lacus torquent posuere habitasse cum, quisque purus placerat dui consequat augue nulla. Blandit erat venenatis sed mus nam ridiculus vestibulum integer natoque hendrerit condimentum non, gravida a hac vivamus cursus nisl eleifend inceptos mattis convallis tellus. ",
+        "btn": "Mas información"
     }
 }
