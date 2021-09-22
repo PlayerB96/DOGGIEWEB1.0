@@ -3,6 +3,30 @@ import student from "../../assets/imgs/Form_student.png";
 import './Form.scss'
 
 export default function Cotizacion(props) {
+    function generateJson() {
+        
+        let formValues = {
+            "name": document.getElementById("name").value,
+            "lastName": document.getElementById("lastname").value,
+            "email": document.getElementById("email").value,
+            "phone": document.getElementById("phone").value,
+            "country": document.getElementById("country").value,
+            "request": document.getElementById("request").value,
+            "carreer": document.getElementById("carreer").value,
+            "university": document.getElementById("university").value,
+            "monthDiscount": document.getElementById("monthDiscount").value,
+            "discountCode": document.getElementById("discountCode").value,
+            "time": document.getElementById("time").value,
+            "structure": document.getElementById("structure").value,
+            "details": document.getElementById("details").value
+        }
+        console.log(formValues)
+        
+    }
+
+
+
+
     return (
         <div className="form-block">
             <div className="left-container">
@@ -18,24 +42,24 @@ export default function Cotizacion(props) {
                     </div>
                     <div className="row-around">
 
-                        <input className="input-type-1" type="text" placeholder="*Nombre" />
+                        <input className="input-type-1" type="text" placeholder="*Nombre" id="name" />
 
 
-                        <input className="input-type-1" type="text" placeholder="*Apellido" />
+                        <input className="input-type-1" type="text" placeholder="*Apellido" id="lastname" />
 
                     </div>
                     <div className="row-center">
 
-                        <input className="input-type-2" type="text" placeholder="*Correo Electronico" />
+                        <input className="input-type-2" type="text" placeholder="*Correo Electronico" id="email" />
 
 
                     </div>
                     <div className="row-around">
 
-                        <input className="input-type-1" type="text" placeholder="*Telefono" />
+                        <input className="input-type-1" type="text" placeholder="*Telefono" id="phone" />
 
 
-                        <select className="input-type-1" placeholder="*Pais" name="*Pais" id="">
+                        <select className="input-type-1" placeholder="*Pais" name="*Pais" id="country">
                             <option value="" disabled selected hidden>*Pais</option>
                             <option value="Venezuela">Venezuela</option>
                             <option value="Argentina">Argentina</option>
@@ -54,7 +78,7 @@ export default function Cotizacion(props) {
                     </div>
                     <div className="row-center">
 
-                        <select className="input-type-2" name="*Tipo de requerimiento" id="*Tipo de requerimiento">
+                        <select className="input-type-2" name="*Tipo de requerimiento" id="request">
                             <option value="" disabled selected hidden>*Tipo de requerimiento</option>
                             <option value="Correciones,estilo y/o normativa">Correciones,estilo y/o normativa</option>
                             <option value="Proyecto de tesis">Proyecto de tesis</option>
@@ -68,7 +92,7 @@ export default function Cotizacion(props) {
                     </div>
                     <div className="row-center">
 
-                        <select className="input-type-2" name="Especialidad" id="Especialidad">
+                        <select className="input-type-2" name="Especialidad" id="carreer">
                             <option value="" disabled selected hidden>Especialidad</option>
                             <option value="Administracion">Administracion</option>
                             <option value="Arquitectura">Arquitectura</option>
@@ -80,7 +104,7 @@ export default function Cotizacion(props) {
                     </div>
                     <div className="row-center">
 
-                        <select className="input-type-2" placeholder="Universidad/Organizacion" name="Universidad/Organizacion" id="Universidad/Organizacion">
+                        <select className="input-type-2" placeholder="Universidad/Organizacion" name="Universidad/Organizacion" id="university">
                             <option value="" disabled selected hidden>Universidad/Organizacion</option>
                             <option value="Pontificia Universidad Catolica del Peru">Pontificia Universidad Catolica del Peru</option>
                             <option value="Universidad Peruana Cayetano Heredia">Universidad Peruana Cayetano Heredia</option>
@@ -101,7 +125,7 @@ export default function Cotizacion(props) {
                     </div>
                     <div className="row-around">
 
-                        <select className="input-type-1" name="" id="">
+                        <select className="input-type-1" name="" id="monthDiscount">
                             <option value="" disabled selected hidden>Descuento del mes</option>
                             <option value="Enero">Enero</option>
                             <option value="Febrero">Febrero</option>
@@ -117,13 +141,13 @@ export default function Cotizacion(props) {
                             <option value="Diciembre">Diciembre</option>
                         </select>
 
-                        <input className="input-type-1" type="text" placeholder="Codigo de descuento" />
+                        <input className="input-type-1" type="text" placeholder="Codigo de descuento" id="discountCode" />
 
 
                     </div>
                     <div className="row-center">
 
-                        <select className="input-type-2" name="Tiempo de entrega" id="Tiempo de entrega">
+                        <select className="input-type-2" name="Tiempo de entrega" id="time">
                             <option value="" disabled selected hidden>Tiempo de entrega</option>
                             <option value="1 semana">1 semana</option>
                             <option value="2 semanas">2 semanas</option>
@@ -139,17 +163,17 @@ export default function Cotizacion(props) {
                     </div>
                     <div className="row-center">
 
-                        <input className="input-type-2" type="text" placeholder="Ajunta tu estructura y/o avance" />
+                        <input className="input-type-2" type="text" placeholder="Ajunta tu estructura y/o avance" id="structure" />
 
 
                     </div>
                     <div className="row-center">
 
-                        <input className="input-type-2" type="text" placeholder="*Detalles adicionales" />
+                        <input className="input-type-2" type="text" placeholder="*Detalles adicionales" id="details" />
 
                     </div>
                     <div className="row-center">
-                        <button className="boton">
+                        <button className="boton" onClick={generateJson}>
                             <h3 className="text">Enviar</h3>
                         </button>
                     </div>
