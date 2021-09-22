@@ -1,7 +1,7 @@
 import React from 'react'
 import Presentation from "../../components/Home/Presentation/Presentation";
 import Benefits from "../../components/Home/Benefits/Benefits";
-import About_us_frame from '../../components/About_us_frame/about_us_frame';
+import About_us_frame from '../../components/Home/AboutUsFrame/AboutUsFrame';
 import Services from '../../components/Home/OurServices/Services';
 import HomeData from "./HomeData.json"
 // const dataBenefits = [

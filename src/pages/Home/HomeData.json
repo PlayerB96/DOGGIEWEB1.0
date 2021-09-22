@@ -19,17 +19,17 @@
         ]
     },
     "about": {
-        "left_t1": "¿QUIENES",
-        "left_t2": "SOMOS?",
-        "left_text_1": "Somos como equipo multidisciplinario comprometido con \nla investigación científica y académica, nuestro equipo está \nconformado por profesionales con más de 10 años de \nexperiencia en el ámbito de la investigación a nivel \nnacional e  internacional habiendo realizado trabajos como \npor ejemplo para la ",
-        "univ_1": "Universidad de Sao Paulo",
-        "left_text_2": " de Brasil, \n",
-        "univ_2": "Universidad Católica ",
-        "left_text_3": "de Chile, con ",
-        "univ_3": "Universidad europea de\nMadrid ",
-        "left_text_4": "entre otras.",
-        "right_text_1": "Estamos convencidos \nde que el cambio de \nuna nación empieza por \n",
-        "right_text_orange":"las propuestas e\nimplementación de la\ninvestigación científica y\nacadémica,",
-        "right_text_2":" por eso que\nqueremos que usted\nsea parte de ese gran\ncambio."
+        "leftT1": "¿QUIENES",
+        "leftT2": "SOMOS?",
+        "leftText1": "Somos como equipo multidisciplinario comprometido con \nla investigación científica y académica, nuestro equipo está \nconformado por profesionales con más de 10 años de \nexperiencia en el ámbito de la investigación a nivel \nnacional e  internacional habiendo realizado trabajos como \npor ejemplo para la ",
+        "univ1": "Universidad de Sao Paulo",
+        "leftText2": " de Brasil, \n",
+        "univ2": "Universidad Católica ",
+        "leftText3": "de Chile, con ",
+        "univ3": "Universidad europea de\nMadrid ",
+        "leftText4": "entre otras.",
+        "rightText1": "Estamos convencidos \nde que el cambio de \nuna nación empieza por \n",
+        "rightTextOrange":"las propuestas e\nimplementación de la\ninvestigación científica y\nacadémica,",
+        "rightText2":" por eso que\nqueremos que usted\nsea parte de ese gran\ncambio."
     }
 }

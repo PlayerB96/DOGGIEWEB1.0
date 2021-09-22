@@ -3,7 +3,7 @@ $middlePercent: 56%;
 .naranja {
     color: #f27c00;
 }
-.about_us_container {
+.aboutUsContainer {
     display: flex;
     flex-direction: row;
     background-color: white;
@@ -54,7 +54,7 @@ $middlePercent: 56%;
             height: auto;
         }
 
-        .text_right {
+        .textRight {
             font-size: 150%;
             font-weight: 400;
             align-content: center;
@@ -65,7 +65,7 @@ $middlePercent: 56%;
 }
 
 @media screen and (max-width: 1638px) {
-    .about_us_container {
+    .aboutUsContainer {
         .left {
             width: $middlePercent;
             display: flex;
@@ -104,7 +104,7 @@ $middlePercent: 56%;
                 transition: 0.5s;
             }
 
-            .text_right {
+            .textRight {
                 font-size: 140%;
                 font-weight: 400;
                 align-content: center;
@@ -116,7 +116,7 @@ $middlePercent: 56%;
 }
 
 @media screen and (max-width: 1496px) {
-    .about_us_container {
+    .aboutUsContainer {
         .left {
             width: $middlePercent;
             display: flex;
@@ -155,8 +155,59 @@ $middlePercent: 56%;
                 transition: 0.5s;
             }
 
-            .text_right {
-                font-size: 130%;
+            .textRight {
+                font-size: 120%;
+                font-weight: 400;
+                align-content: center;
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1242px) {
+    .aboutUsContainer {
+        .left {
+            width: $middlePercent;
+            display: flex;
+            flex-direction: row;
+            margin-right: 5%;
+
+            flex-wrap: wrap;
+            .titulo {
+                color: #11162a;
+                text-align: left;
+                font-size: 250%;
+                font-weight: 400;
+                margin-bottom: 0;
+                background-color: white;
+            }
+
+            .text {
+                color: #11162a;
+                text-align: left;
+                font-size: 120%;
+                font-weight: 400;
+                background-color: white;
+            }
+        }
+        .right {
+            display: flex;
+            flex-direction: row;
+            width: 100%-$middlePercent;
+            background-color: #e3e4e6;
+            padding: 2%;
+            align-self: center;
+            border-radius: 3%;
+            .imagen {
+                width: 45%;
+                height: auto;
+                transition: 0.5s;
+            }
+
+            .textRight {
+                font-size: 100%;
                 font-weight: 400;
                 align-content: center;
                 margin-left: 20px;
