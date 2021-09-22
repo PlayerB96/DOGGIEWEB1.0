@@ -13,17 +13,20 @@ export default function Services(props) {
                 <img className='image' src={img} alt='woman-headphones' />
             </div>
             <div className='buttons-container'>
-                <button className='button'>
-                    Tesis
-                </button>
+                <div className='button-1'>
+                    <button className='button'>
+                        Tesis
+                    </button>
+                    <div className='rectangle'></div>
+                </div>
                 <button className='button'>
                     Plan de Tesis
                 </button>
-                <button className='button'> 
-                    Modelo <br/> de negocios
+                <button className='button'>
+                    Modelo <br /> de negocios
                 </button>
-                <button className='button'> 
-                    Plan <br/> de negocios
+                <button className='button'>
+                    Plan <br /> de negocios
                 </button>
             </div>
         </div>
