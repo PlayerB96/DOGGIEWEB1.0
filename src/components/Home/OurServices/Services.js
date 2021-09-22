@@ -9,8 +9,22 @@ export default function Services(props) {
                 <div className='our'>NUESTROS</div>
                 <div className='services'>SERVICIOS</div>
             </div>
-            <div className = 'image-container'>
-                <img className='image' src={img} alt='woman-headphones'/>
+            <div className='image-container'>
+                <img className='image' src={img} alt='woman-headphones' />
+            </div>
+            <div className='buttons-container'>
+                <button className='button'>
+                    Tesis
+                </button>
+                <button className='button'>
+                    Plan de Tesis
+                </button>
+                <button className='button'> 
+                    Modelo <br/> de negocios
+                </button>
+                <button className='button'> 
+                    Plan <br/> de negocios
+                </button>
             </div>
         </div>
     )
