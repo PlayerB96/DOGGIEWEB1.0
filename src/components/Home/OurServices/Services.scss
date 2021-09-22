@@ -43,12 +43,14 @@
             flex-direction: column;
             .button{
                 background: #E3E4E6;
+                padding-bottom: 2px;
                 border-radius: 17px;
                 height: 70.64px;
                 width: 182.07px;
                 font-weight: 500;
                 font-family: "Montserrat";
                 font-size: 16.09px;
+                border: #E3E4E6;
                 cursor: pointer;
             }
         }
@@ -76,7 +78,7 @@
             }
         }
         
-
+/*
         .button{
             background: #E3E4E6;
             padding-bottom: 2px;
@@ -90,6 +92,6 @@
             border: #E3E4E6;
             cursor: pointer;
         }
-
+*/
     }
 }
