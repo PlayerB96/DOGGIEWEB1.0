@@ -19,15 +19,24 @@ export default function Services(props) {
                     </button>
                     <div className='rectangle'></div>
                 </div>
-                <button className='button'>
-                    Plan de Tesis
-                </button>
-                <button className='button'>
-                    Modelo <br /> de negocios
-                </button>
-                <button className='button'>
-                    Plan <br /> de negocios
-                </button>
+                <div className='button-1'>
+                    <button className='button'>
+                        Plan de Tesis
+                    </button>
+                    <div className='rectangle'></div>
+                </div>
+                <div className='button-1'>
+                    <button className='button'>
+                        Modelo <br /> de negocios
+                    </button>
+                    <div className='rectangle'></div>
+                </div>
+                <div className='button-1'>
+                    <button className='button'>
+                        Plan <br /> de negocios
+                    </button>
+                    <div className='rectangle'></div>
+                </div>
             </div>
         </div>
     )
