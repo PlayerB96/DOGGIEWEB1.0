@@ -81,12 +81,16 @@
     }
     .more-information {
         text-align: center;
-        
         margin-top: 6%;
         .information-link {
-            
-            color: #ffc700;
-            border: 0px;
+            font-weight: 500;
+            color: #E4C000;
+        }
+        img {
+            padding: 0.5%;
+            margin: -1% auto;
+            margin-left: 0%;
+            width: 1.5%;
         }
     }
 }
