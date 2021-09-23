@@ -38,6 +38,11 @@ export default function Services(props) {
                     <div className='rectangle'></div>
                 </div>
             </div>
+            <div className='more-information'>
+                <a href='' className='information-link'>
+                    Más información &rarr;
+                </a>
+            </div>
         </div>
     )
 }
