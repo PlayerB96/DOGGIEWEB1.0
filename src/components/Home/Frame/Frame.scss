@@ -1,0 +1,26 @@
+.frame-container {
+    background: #e3e4e6;
+    width: 52%;
+    height: 31.56%;
+    padding: 4.5% 4.5% 4% 3%;
+    margin: 8% 4%;
+    border-radius: 25px;
+
+    p {
+        font-size: 14px;
+    }
+    .button {
+        margin-top: 50px;
+        margin-bottom: 0;
+        button {
+            background: #101429;
+            color: #ffffff;
+            font-family: "Montserrat";
+            border-radius: 8px;
+            width: 25%;
+            height: 39px;
+            border: #101429;
+            cursor: pointer;
+        }
+    }
+}

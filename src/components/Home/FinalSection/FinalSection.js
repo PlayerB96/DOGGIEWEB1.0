@@ -7,7 +7,7 @@ export default function FinalSection(props) {
     return (
         <div className="Container-Parent">
             <h1>{props.data.tittle}</h1>
-
+            
             <div className="Container-Box">
                 <div className="Box-Junior">
                     <img className="Image" src={analista} alt="analista"></img>
