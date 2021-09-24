@@ -17,13 +17,15 @@ import FinalSection from '../../components/Home/FinalSection/FinalSection';
 // ]
 
 export default function Home() {
+    
+
     return (
         <div>
-            <Presentation data={HomeData.presentation}/>
-            <AboutUsFrame data={HomeData.about}/>
-            <Benefits data={HomeData.benefits}/>
-            <Services/>
-            <FinalSection data={HomeData.finalSection}/>
+            <Presentation data={HomeData.presentation} />
+            <AboutUsFrame data={HomeData.about} />
+            <Benefits data={HomeData.benefits} />
+            <Services />
+            <FinalSection data={HomeData.finalSection} />
         </div>
     )
 }

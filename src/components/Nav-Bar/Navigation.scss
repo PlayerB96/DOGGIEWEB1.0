@@ -1,4 +1,4 @@
-.nav-container{
+.nav-container {
     position: fixed;
     top: 0;
     width: 100%;
@@ -6,97 +6,122 @@
     display: flex;
     flex-direction: column;
     font-family: "Montserrat";
-    
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
     font-weight: 500;
     z-index: 50;
-    .features{
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        background: #E3E4E6;
-        border-bottom: 2.5px solid #C6C6C6;
-        .search{
-            padding-top: 10px;
-            margin: 0 20px 0 0;
-            // background-color: red;
-        }
-        
-        .search:hover{
-            cursor: pointer;
-
-        }
-
-        .support{
-            padding-top: 10px;
-            // background-color: red;
-            align-content: center;
-        }
-
-        .support:hover{
-            cursor: pointer;
-        }
-
-        .contact{
-            margin: 0 20px;
-            padding-top: 10px;
-            // background-color: red;
-        }
-
-        .contact:hover{
-            cursor: pointer;
-        }
-
-        .login-btn{
-            font-family: "Montserrat";;
-            
-            font-weight: 500;
-            width: fit-content;
-            
-            background: #FFC700;
-            border: none;
-            border-radius: 8px;
-            margin: 0 100px 0 20px;
-
-            .log-arrow{
-                height: 8px;
-                width: auto;
-                margin-left: 5px;
-            }
-        }
-
-        .login-btn:hover{
-            cursor: pointer;
-        }
-    }
-
-    .nav{
+    .features {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        margin: 10px 100px 0 100px;
-        height: 80px;
-        .nav-logo{
+        background: #e3e4e6;
+        border-bottom: 2.5px solid #c6c6c6;
+        .left {
+            width: 15%;
+            align-self: center;
+            display: flex;
+            flex-direction: row;
+            background: none;
+            border: none;
+            margin-left: 2%;
+            .languages {
+                font-size: 100%;
+                margin-right: 5%;
+            }
+        }
+
+        .right {
+            align-self: center;
+            display: flex;
+            flex-direction: row;
+            .search {
+                padding-top: 10px;
+                margin: 0 20px 0 0;
+                // background-color: red;
+            }
+
+            .search:hover {
+                cursor: pointer;
+            }
+
+            .support {
+                padding-top: 10px;
+                // background-color: red;
+                align-content: center;
+            }
+
+            .support:hover {
+                cursor: pointer;
+            }
+
+            .contact {
+                margin: 0 20px;
+                padding-top: 10px;
+                // background-color: red;
+            }
+
+            .contact:hover {
+                cursor: pointer;
+            }
+
+            .login-btn {
+                font-family: "Montserrat";
+
+                font-weight: 500;
+                width: fit-content;
+
+                background: #ffc700;
+                border: none;
+                border-radius: 8px;
+                margin: 0 100px 0 20px;
+
+                .log-arrow {
+                    height: 8px;
+                    width: auto;
+                    margin-left: 5px;
+                }
+            }
+
+            .login-btn:hover {
+                cursor: pointer;
+            }
+        }
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        // margin: 10px 100px 0 100px;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-top: 1%;
+        margin-bottom: 0.5%;
+        .nav-logo {
             height: 60px;
             width: auto;
         }
 
-        .nav-logo:hover{
+        .nav-logo:hover {
             cursor: pointer;
         }
 
-        .nav-g-btn{
+        .nav-g-btn {
             font-family: "Montserrat";
             background: #fff;
-            border: 1.5px solid #C6C6C6;
-            box-shadow: 1px 1px 3px #C6C6C6;
+            border: 1.5px solid #c6c6c6;
+            box-shadow: 1px 1px 3px #c6c6c6;
             border-radius: 8px;
         }
 
-        .nav-g-btn:hover{
+        .nav-g-btn:hover {
             cursor: pointer;
         }
 
-        .nav-btn{
+        .nav-btn {
             font-family: "Montserrat";
             border-radius: 8px;
             border: none;
@@ -106,57 +131,52 @@
             padding: 0 20px;
         }
 
-
-        .nav-btn:hover{
+        .nav-btn:hover {
             cursor: pointer;
             background: #fff;
             color: #101429;
             border: 1px solid #101429;
-            
         }
     }
 }
 
-@media screen and (max-width: 2560px){
-    .nav-container{
-        
-        .features{
+@media screen and (max-width: 2560px) {
+    .nav-container {
+        .features {
             padding: 10px 0 10px 0;
-            .search{
+            .search {
                 height: 30px;
             }
-            .support{
+            .support {
                 font-size: 22px;
                 margin: 0 30px;
             }
-            .contact{
+            .contact {
                 font-size: 22px;
                 margin: 0 30px;
             }
-            .login-btn{
+            .login-btn {
                 font-size: 22px;
                 height: 45px;
-                
             }
         }
 
-        .nav{
-            margin: 15px 100px 0 100px;
-            .nav-logo{
+        .nav {
+            // margin: 15px 100px 0 100px;
+            .nav-logo {
                 height: 100px;
                 width: auto;
                 transition: 0.5s;
             }
-            
-            .nav-g-btn{
+
+            .nav-g-btn {
                 font-size: 22px;
                 height: 60px;
                 width: 300px;
                 margin-top: 25px;
-                
             }
 
-            .nav-btn{
+            .nav-btn {
                 font-size: 22px;
                 height: 60px;
                 width: auto;
@@ -166,46 +186,43 @@
     }
 }
 
-@media screen and (max-width: 1920px){
-    .nav-container{
-        
-        .features{
+@media screen and (max-width: 1920px) {
+    .nav-container {
+        .features {
             padding: 10px 0 10px 0;
-            .search{
+            .search {
                 height: 25px;
             }
-            .support{
+            .support {
                 font-size: 20px;
                 margin: 0 30px;
             }
-            .contact{
+            .contact {
                 font-size: 20px;
                 margin: 0 30px;
             }
-            .login-btn{
+            .login-btn {
                 font-size: 20px;
                 height: 45px;
-                
             }
         }
 
-        .nav{
-            margin: 15px 100px 0 100px;
-            .nav-logo{
+        .nav {
+            // margin: 15px 100px 0 100px;
+            .nav-logo {
                 height: 90px;
                 width: auto;
                 transition: 0.5s;
             }
-            
-            .nav-g-btn{
+
+            .nav-g-btn {
                 font-size: 19px;
                 height: 55px;
                 width: 280px;
                 margin-top: 25px;
-                
             }
 
-            .nav-btn{
+            .nav-btn {
                 font-size: 19px;
                 height: 55px;
                 width: auto;
@@ -215,45 +232,43 @@
     }
 }
 
-@media screen and (max-width: 1760px){
-    .nav-container{
-        .features{
+@media screen and (max-width: 1760px) {
+    .nav-container {
+        .features {
             padding: 5px 0 5px 0;
-            .search{
+            .search {
                 height: 20px;
             }
-            .support{
+            .support {
                 font-size: 18px;
                 margin: 0 20px;
             }
-            .contact{
+            .contact {
                 font-size: 18px;
                 margin: 0 20px;
             }
-            .login-btn{
+            .login-btn {
                 font-size: 18px;
                 height: 40px;
-                
             }
         }
 
-        .nav{
-            margin: 10px 100px 0 100px;
-            .nav-logo{
+        .nav {
+            // margin: 10px 100px 0 100px;
+            .nav-logo {
                 height: 80px;
                 width: auto;
                 transition: 0.5s;
             }
-            
-            .nav-g-btn{
+
+            .nav-g-btn {
                 font-size: 18px;
                 height: 45px;
                 width: 200px;
                 margin-top: 25px;
-                
             }
 
-            .nav-btn{
+            .nav-btn {
                 font-size: 18px;
                 margin-top: 25px;
                 height: 45px;
@@ -263,45 +278,43 @@
     }
 }
 
-@media screen and (max-width: 1500px){
-    .nav-container{
-        .features{
+@media screen and (max-width: 1500px) {
+    .nav-container {
+        .features {
             padding: 5px 0 5px 0;
-            .search{
+            .search {
                 height: 18px;
             }
-            .support{
+            .support {
                 font-size: 15px;
                 margin: 0 20px;
             }
-            .contact{
+            .contact {
                 font-size: 15px;
                 margin: 0 20px;
             }
-            .login-btn{
+            .login-btn {
                 font-size: 15px;
                 height: 35px;
-                
             }
         }
 
-        .nav{
-            margin: 10px 100px 0 100px;
-            .nav-logo{
+        .nav {
+            // margin: 10px 100px 0 100px;
+            .nav-logo {
                 height: 65px;
                 width: auto;
                 transition: 0.5s;
             }
-            
-            .nav-g-btn{
+
+            .nav-g-btn {
                 font-size: 15px;
                 height: 40px;
                 width: 180px;
                 margin-top: 15px;
-                
             }
 
-            .nav-btn{
+            .nav-btn {
                 font-size: 15px;
                 margin-top: 15px;
                 height: 40px;
@@ -311,45 +324,43 @@
     }
 }
 
-@media screen and (max-width: 1366px){
-    .nav-container{
-        .features{
+@media screen and (max-width: 1366px) {
+    .nav-container {
+        .features {
             padding: 5px 0 5px 0;
-            .search{
+            .search {
                 height: 15px;
             }
-            .support{
+            .support {
                 font-size: 12.6px;
                 margin: 0 20px;
             }
-            .contact{
+            .contact {
                 font-size: 12.6px;
                 margin: 0 20px;
             }
-            .login-btn{
+            .login-btn {
                 font-size: 12.6px;
                 height: 35px;
-                
             }
         }
 
-        .nav{
-            margin: 10px 100px 0 100px;
-            .nav-logo{
+        .nav {
+            // margin: 10px 100px 0 100px;
+            .nav-logo {
                 height: 60px;
                 width: auto;
                 transition: 0.5s;
             }
-            
-            .nav-g-btn{
+
+            .nav-g-btn {
                 font-size: 12.6px;
                 height: 40px;
                 width: 150px;
                 margin-top: 12px;
-                
             }
 
-            .nav-btn{
+            .nav-btn {
                 font-size: 12.6px;
                 margin-top: 12px;
                 height: 40px;
@@ -359,45 +370,43 @@
     }
 }
 
-@media screen and (max-width: 1100px){
-    .nav-container{
-        .features{
+@media screen and (max-width: 1100px) {
+    .nav-container {
+        .features {
             padding: 5px 0 5px 0;
-            .search{
+            .search {
                 height: 12px;
             }
-            .support{
+            .support {
                 font-size: 11px;
                 margin: 0 20px;
             }
-            .contact{
+            .contact {
                 font-size: 11px;
                 margin: 0 20px;
             }
-            .login-btn{
+            .login-btn {
                 font-size: 11px;
                 height: 30px;
-                
             }
         }
 
-        .nav{
-            margin: 10px 100px 0 100px;
-            .nav-logo{
+        .nav {
+            // margin: 10px 100px 0 100px;  
+            .nav-logo {
                 height: 55px;
                 width: auto;
                 transition: 0.5s;
             }
-            
-            .nav-g-btn{
+
+            .nav-g-btn {
                 font-size: 11px;
                 height: 35px;
                 width: 130px;
                 margin-top: 8px;
-                
             }
 
-            .nav-btn{
+            .nav-btn {
                 font-size: 11px;
                 margin-top: 8px;
                 height: 35px;

@@ -1,0 +1,52 @@
+{
+    "title":"Select your location",
+
+    "continents" : [
+        {
+            "name":"Americas",
+            "countries":[
+                {
+                    "name":"United States",
+                    "language":"English"
+                },
+                {
+                    "name":"Brazil",
+                    "language":"Portugués"
+                },
+                {
+                    "name":"Latin America",
+                    "language":"Español"
+                }
+            ]
+        },
+
+        {
+            "name":"Asia Pacific",
+            "countries":[
+                {
+                    "name":"Australia",
+                    "language":"English"
+                }
+            ]
+        },
+
+        {
+            "name":"Europe",
+            "countries":[
+                {
+                    "name":"Germany",
+                    "language":"Deutsch"
+                },
+                {
+                    "name":"Spain",
+                    "language":"Español"
+                },
+                {
+                    "name":"United Kingdom",
+                    "language":"English"
+                }
+            ]
+        }
+        
+    ]
+}
