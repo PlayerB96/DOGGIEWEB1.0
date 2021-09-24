@@ -27,3 +27,75 @@
     }
 }
 
+@media screen and (max-width: 1920px) {
+    .frame-container {
+        margin-right: 0px;
+        margin-left: 8%;
+        width: 35%;
+        padding-bottom: 2%;
+        p {
+            font-size: 12px;
+            font-weight: 500;
+            font-family: "Montserrat";
+        }
+        .button {
+            margin-top: 35px;
+            margin-bottom: 0;
+            button {
+                border-radius: 7px;
+                width: 25%;
+                height: 35px;
+                cursor: pointer;
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .frame-container {
+        margin-right: 0px;
+        margin-left: 8%;
+        width: 45%;
+        padding-bottom: 2%;
+        p {
+            font-size: 12px;
+            font-weight: 500;
+            font-family: "Montserrat";
+        }
+        .button {
+            margin-top: 35px;
+            margin-bottom: 0;
+            button {
+                border-radius: 7px;
+                width: 25%;
+                height: 35px;
+                cursor: pointer;
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 715px) {
+    .frame-container {
+        margin-right: 0px;
+        margin-left: 12%;
+        p {
+            font-size: 8px;
+            font-weight: 500;
+            font-family: "Montserrat";
+        }
+        .button {
+            margin-top: 22px;
+            margin-bottom: 0;
+            button {
+                border-radius: 8px;
+                width: 25%;
+                height: 21px;
+                cursor: pointer;
+                font-size: 6px;
+            }
+        }
+    }
+}
