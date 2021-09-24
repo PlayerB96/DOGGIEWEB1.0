@@ -1,0 +1,95 @@
+.docBody {
+    width: 797.48px;
+    height: 1127.2px;
+    margin-left: auto;
+    margin-right: auto;
+    .border {
+        position: absolute;
+        width: 797.48px;
+        height: 1127.2px;
+        background-color: transparent;
+        z-index: -1;
+        .logo {
+            top: 13%;
+            left: 40%;
+            width: 200.31px;
+            height: auto;
+            position: absolute;
+        }
+        .waterMark {
+            width: 586px;
+            height: auto;
+            position: absolute;
+            top: 35%;
+            left: 15%;
+            z-index: 2;
+        }
+    }
+}
+.cellsParent {
+    top: 23%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    margin: 20px;
+    position: absolute;
+    z-index: 5;
+    .topCells {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        .topInputLeft {
+            top: 25%;
+            left: 60%;
+            display: flex;
+            flex-direction: row;
+            width: max-content;
+            height: 17px;
+            flex-wrap: wrap;
+            padding: 1px;
+            .cell {
+                margin-left: -0.25px;
+                border-style: solid;
+                font-family: "Roboto", sans-serif;
+                text-align: left;
+                width: 143px;
+                font-size: 12px;
+                height: 17.15px;
+                border-width: 1.5px;
+            }
+        }
+    }
+}
+
+.bodyCells {
+    top: 160%;
+    left: -115%;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    border-style: solid;
+    // width: 640.35px;
+    // height:652.70px ;
+    width: auto;
+    height: auto;
+    border-color: black;
+    .cotizacion {
+        width: 324.72px;
+        height: 34.79px;
+    }
+    .rightCells {
+        display:flex;
+        flex-direction: column;
+
+        .cell {
+            margin-left: -0.25px;
+            border-style: solid;
+            font-family: "Roboto", sans-serif;
+            text-align: left;
+            width: 143px;
+            font-size: 12px;
+            height: 17.15px;
+            border-width: 1.5px;
+        }
+    }
+}
