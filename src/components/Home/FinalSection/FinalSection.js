@@ -29,7 +29,7 @@ export default function FinalSection(props) {
                 </div>
             </div>
             <div id="Enlace">
-                <a>{props.data.btn}</a><img src={moreInfoStyle} />
+                <a>{props.data.btn}</a><img src={moreInfoStyle} alt="moreInfoStyle"/>
             </div>
         </div>
     )
