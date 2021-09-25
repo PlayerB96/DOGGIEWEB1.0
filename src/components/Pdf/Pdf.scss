@@ -17,17 +17,27 @@
             position: absolute;
         }
         .waterMark {
-            width: 586px;
+            width: 550px;
             height: auto;
             position: absolute;
-            top: 35%;
+            top: 45%;
             left: 15%;
             z-index: 2;
+        }
+        .bluebar {
+            width: 200px;
+            height: 5px;
+            position: absolute;
+            top: 17%;
+            left: 41px;
+            -webkit-print-color-adjust: exact;
+            color-adjust: exact;
+            background-color: #000033;
         }
     }
 }
 .cellsParent {
-    top: 23%;
+    top: 22%;
     left: 50%;
     width: auto;
     height: auto;
@@ -48,7 +58,8 @@
             flex-wrap: wrap;
             padding: 1px;
             .cell {
-                margin-left: -0.25px;
+                margin-top: -1.5px;
+                margin-left: -1.5px;
                 border-style: solid;
                 font-family: "Roboto", sans-serif;
                 text-align: left;
@@ -61,35 +72,109 @@
     }
 }
 
-.bodyCells {
-    top: 160%;
+.firstBodyCells {
+    padding: auto;
+    top: 125%;
+    left: -110%;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    flex-wrap: nowrap;
+    height: 34.79px;
+    width: 590px;
+    .cotizacion {
+        margin-right: 0.05px;
+        width: 50.58%;
+        height: 100%;
+        border-style: solid;
+        border-width: 1.5px;
+    }
+    .littleCellsLeft {
+        // width: 324.72px;
+        width: 19.768%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        .leftSon {
+            margin-left: -1.5px;
+            margin-bottom: -1.5px;
+            height: 48%;
+            border-width: 1.5px;
+            border-style: solid;
+            font-family: "Roboto", sans-serif;
+            text-align: left;
+        }
+        // padding: 1px;
+    }
+    .littleCellsRight {
+        // width: 324.72px;
+        width: 29.652%;
+        height: 100%;
+
+        // padding: 1px;
+        .rightSon {
+            margin-left: -1.5px;
+            margin-bottom: -1.5px;
+            // margin-top: 0.5px;
+            // padding-bottom: inherit;
+            height: 48%;
+            border-style: solid;
+            border-width: 1.5px;
+            font-family: "Roboto", sans-serif;
+            text-align: left;
+        }
+    }
+}
+
+.secondBodyCells {
+    top: 189%;
     left: -115%;
     display: flex;
     flex-direction: row;
     position: absolute;
-    border-style: solid;
-    // width: 640.35px;
-    // height:652.70px ;
-    width: auto;
-    height: auto;
-    border-color: black;
-    .cotizacion {
-        width: 324.72px;
-        height: 34.79px;
-    }
-    .rightCells {
-        display:flex;
-        flex-direction: column;
+    flex-wrap: nowrap;
+    height: 34.79px;
+    width: 620px;
+    z-index: 5;
+    // border-style: solid;
 
-        .cell {
-            margin-left: -0.25px;
-            border-style: solid;
-            font-family: "Roboto", sans-serif;
-            text-align: left;
-            width: 143px;
-            font-size: 12px;
-            height: 17.15px;
-            border-width: 1.5px;
-        }
+    .leftSon {
+        width: 50.55%;
+        -webkit-print-color-adjust: exact;
+        color-adjust: exact;
+        background-color: #cccc33;
+        height: 100%;
+    }
+    .rightSon {
+        width: 49.45%;
+        -webkit-print-color-adjust: exact;
+        color-adjust: exact;
+        background-color: #000033;
+        height: 100%;
+    }
+}
+
+.thirdBodyCells {
+    top: 248%;
+    left: -110%;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    flex-wrap: nowrap;
+    height: 480px;
+    width: 590px;
+    border-style: solid;
+    border-width: 1.5px;
+    // background-color: blue;
+
+    .item {
+    }
+    .details {
+    }
+    .hours {
+    }
+    .cost {
+    }
+    .import {
     }
 }
