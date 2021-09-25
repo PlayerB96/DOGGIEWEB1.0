@@ -40,7 +40,10 @@ export default function Navigation(props) {
                     history.push("/");
                     window.scrollTo(0, 0);
                 }} />
-                <button className="nav-g-btn">
+                <button className="nav-g-btn" onClick={() => {
+                    history.push("/services");
+                    window.scrollTo(0, 0);
+                }}>
                     {props.data.navigation.service}
                 </button>
                 <button className="nav-g-btn">

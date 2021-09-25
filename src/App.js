@@ -1,7 +1,10 @@
 import Home from "./pages/Home/Home";
+import ServicesPage from "./pages/ServicesPage/ServicesPage";
+
 import Navigation from "./components/Nav-Bar/Navigation";
 import NavData from "./components/Nav-Bar/NavData.json";
 import Cotizacion from "./pages/Cotizacion/Form";
+
 import LangModal from "./components/LangModal/LangModal";
 import LangModalJSON from './components/LangModal/LangModal.json';
 import { useState } from 'react';
@@ -29,6 +32,9 @@ function App() {
         </Route>
         <Route path="/form" exact>
           <Cotizacion />
+        </Route>
+        <Route path="/services" exact>
+          <ServicesPage />
         </Route>
         {openLangModal&& <LangModal modalAction={OpenLangModal} data={LangModalJSON}/>}
       </div>
