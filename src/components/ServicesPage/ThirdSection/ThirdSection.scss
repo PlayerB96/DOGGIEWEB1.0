@@ -1,54 +1,109 @@
-.Container{
-    width: 100%;
-    flex-direction: row;
-    display: flex;
-    margin: 5% auto ;
-    .All{
-        display: block;
-        width: 35%;
-        padding: auto;
+.Container {
+  width: 100%;
+  flex-direction: row;
+  display: flex;
+  margin: 10% auto;
+  .Left {
+    display: block;
+    width: 35%;
+    padding: auto;
+    margin: auto;
+    .Container-Description {
+      width: 100%;
+      margin-left: 18%;
+      h1 {
+        font-family: Montserrat;
         margin: auto;
-        .Container-Description{
-            width: 100%;
-            margin-left: 18%;
-            #Black{
-                font-family: Montserrat;
-                margin: auto;
-                color: #1A1C37;
-            }
-            #Orange{
-                font-family: Montserrat;
-                margin: auto auto 5% ;
-                color: #F08A00;
-            }
-            #Description{
-                margin: auto;
-            }
-        }
-        .Box-Text{
-            display: block;
-            flex-direction: column;
-            .Text{
-            display: flex;
-            flex-direction: row;
-                .Point{
-                    width: 5%;
-                    height: 5%;
-                    margin: 6% 3% -3%;
-                }
-                .p2{
-                    margin: 6% 3% -3%;
-                    width: 100%;
-                }
-            }
-        }
-    }
-    .Image{
-        width: 35%;
-        padding: auto;
+        color: #1a1c37;
+      }
+      h2 {
+        font-family: Montserrat;
+        margin: auto auto 5%;
+        color: #f08a00;
+      }
+      p {
         margin: auto;
-        #grafico{
-            width: 100%;
-        }
+      }
     }
+    .Box-Details {
+      display: block;
+      flex-direction: column;
+      .Details {
+        display: flex;
+        flex-direction: row;
+        .CheckImg {
+          width: 5%;
+          height: 5%;
+          margin: 6% 3% -3%;
+        }
+        .p2 {
+          margin: 6% 3% -3%;
+          width: 100%;
+        }
+      }
+    }
+  }
+  .Right {
+    width: 35%;
+    padding: auto;
+    margin: auto;
+    #Image-Right {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 1116px) {
+  .Container {
+    .Left {
+      font-size: 80%;
+      width: 50%;
+      .Container-Description {
+        margin-left: 5%;
+      }
+    }
+    .Right {
+      width: 40%;
+    }
+  }
+}
+//Responsive movil
+@media (max-width: 520px) {
+  .Container {
+    flex-direction: column;
+    .Left {
+      width: 95%;
+      margin: 5% auto;
+      text-align: center;
+      font-size: 100%;
+      .Container-Description {
+        margin: auto;
+        padding: 0px;
+        h1 {
+          font-size: 100%;
+        }
+        h2 {
+          font-size: 100%;
+        }
+        p {
+          font-size: 80%;
+        }
+      }
+      .Box-Details {
+        .Details {
+          .CheckImg {
+            margin: 6% 2% -3% 5%;
+          }
+          .p2 {
+            margin: 6% 3% -3% -5%;
+          }
+        }
+      }
+    }
+    .Right {
+      width: 90%;
+      margin: 5% auto;
+      text-align: center;
+    }
+  }
 }
