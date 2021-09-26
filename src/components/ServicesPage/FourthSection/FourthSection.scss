@@ -1,0 +1,73 @@
+.fs-container{
+    padding: 3%;
+    position: absolute;
+    font-family: "Montserrat";
+    width: 80%;
+    .fs-bkg-img{
+        z-index: -1;
+        width: 90%;
+        position: relative;
+        right: -20%;
+    }
+    .fs-frames-container{
+        // background: red;
+        height: 750px;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        position: absolute;
+        top: 0;
+        z-index: 0;
+
+        .title{
+            color: #F39205;
+            font-size: 25px;
+            font-weight: 500;
+            padding: 0 7%;
+        }
+
+        .text{
+            padding: 5% 7%;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .info{
+            padding: 5% 7%;
+            font-size: 14px;
+            font-weight: 500;
+            color: #F39205;
+            text-decoration: underline;
+        }
+
+        .frame-box{
+            background: #fff;
+            margin-bottom: 8%;
+            height: 100%;
+            border-radius: 9px;
+            box-shadow: -10px 6px 0 6px #E3E4E6E5;
+            .box-content{
+                margin-top: 35%;
+            }
+        }
+        .first-frame{
+            margin: 0 5%;
+            width: 55%;
+            
+        }
+
+        .second-frame{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            margin: 0 3% ;
+            width: 65%;
+        }
+
+        .third-frame{
+            width: 75%;
+            height: 40%;
+            
+        }
+    }
+}

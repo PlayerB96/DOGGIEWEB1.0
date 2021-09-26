@@ -1,0 +1,27 @@
+{
+    "fourthSection" : {
+        "box1" : {
+            "txt1" : "Lorem ipsum dolor ",
+            "txt2" : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad ",
+            "title1": "VBDXHTF JYGKUFSXCB ASFESE"
+        },
+
+        "box2" : {
+            "title" : "VBDXHTF",
+            "txt" : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud ",
+            "info" : "Más información"
+        },
+
+        "box3" : {
+            "title" : "VBDXHTF",
+            "txt" : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod ",
+            "info" : "Más información"
+        },
+
+        "box4" : {
+            "title" : "VBDXHTF",
+            "txt" : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore",
+            "info" : "Más información"
+        }
+    }
+}
