@@ -12,9 +12,7 @@
         margin: 0 100px 0 50px;
         height: 100%;
         .woman{
-            width: 450px;
             height: auto;
-            padding: 15px ;
         }
     }
 
@@ -25,7 +23,7 @@
         //background: red;
         .info{
             font-family: "Montserrat";
-            font-size: 13px;
+            
             font-weight: 500;
             margin: 10px 0 5px 0;
         }
@@ -39,8 +37,6 @@
             border-radius: 8px;
             border: none;
             margin: 13px 0 13px 0;
-            width: 240px;
-            height: 45px;
         }
         
         .b-button:hover{
@@ -59,10 +55,8 @@
                 background: #E3E4E6;
                 border-radius: 8px;
                 height: 100%;
-                .student{
-                    width: 200px;
+                .student{                   
                     height: auto;
-                    padding: 5px ;
                 }
             }
 
@@ -83,7 +77,6 @@
                     color: #FFC700;
                     
                     .arrow{
-                        width: 20px;
                         padding-left: 5px;
                     }
                 }
@@ -97,3 +90,108 @@
     }
 }
 
+@media screen and (max-width: 1920px) {
+    .content-block{
+        margin: 200px 0 10px 0;
+        z-index: -1;
+        .block-image{
+            border-radius: 15px;
+            margin: 0 100px 0 50px;
+            height: 100%;
+            .woman{
+                width: 700px;
+                height: auto;
+                padding: 15px 15px 0 15px ;
+            }
+        }
+
+        .block-info{
+            .info{
+                font-size: 20px;
+                font-weight: 500;
+                margin: 10px 0 5px 0;
+            }
+            .b-button{
+                font-size: 20px;
+                width: 40%;
+                height: 10%;
+            }
+
+            .mult-info{
+                .student-container{
+                    .student{
+                        height: 163px;
+                        width: auto;
+                        padding: 8px 8px 0 8px;
+                    }
+                }
+
+                .redir-container{
+                    .msg{
+                        font-size: 20px;
+                    }
+
+                    .video-redir{
+                        font-size: 20px;
+                        .arrow{
+                            width: 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .content-block{
+        margin: 140px 0 10px 0;
+        z-index: -1;
+        .block-image{
+            border-radius: 15px;
+            margin: 0 100px 0 50px;
+            height: 100%;
+            .woman{
+                width: 450px;
+                height: auto;
+                padding: 15px 15px 0 15px ;
+            }
+        }
+
+        .block-info{
+            .info{
+                font-size: 13px;
+                font-weight: 500;
+                margin: 10px 0 5px 0;
+            }
+            .b-button{
+                font-size: 13px;
+                width: 40%;
+                height: 40px;
+            }
+
+            .mult-info{
+                .student-container{
+                    .student{
+                        width: 200px;
+                        height: auto;
+                        padding: 5px 5px 0 5px;
+                    }
+                }
+
+                .redir-container{
+                    .msg{
+                        font-size: 13px;
+                    }
+
+                    .video-redir{
+                        font-size: 13px;
+                        .arrow{
+                            width: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
