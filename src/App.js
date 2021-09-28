@@ -1,5 +1,6 @@
 import Home from "./pages/Home/Home";
 import ServicesPage from "./pages/ServicesPage/ServicesPage";
+import ResourcePage from "./pages/ResourcePage/ResourcePage";
 
 import Navigation from "./components/Nav-Bar/Navigation";
 import NavData from "./components/Nav-Bar/NavData.json";
@@ -26,19 +27,22 @@ function App() {
   return (
     <Router>
       <div >
-        <Navigation data={NavData} openLangModal={OpenLangModal}/>
-        <Route path="/" exact>
-          <Home />
-        </Route>
-        <Route path="/form" exact>
-          <Cotizacion />
-        </Route>
-        <Route path="/services" exact>
-          <ServicesPage />
-        </Route>
-        {openLangModal&& <LangModal modalAction={OpenLangModal} data={LangModalJSON}/>}
-      </div>
+         <Navigation data={NavData} openLangModal={OpenLangModal}/>
+         <Route path="/" exact>
+           <Home />
+         </Route>
+         <Route path="/form" exact>
+           <Cotizacion />
+         </Route>
+         <Route path="/services" exact>
+           <ServicesPage />
+         </Route>
+         {openLangModal&& <LangModal modalAction={OpenLangModal} data={LangModalJSON}/>}
+       </div>
     </Router>
+    // <div>
+    //   <ResourcePage />
+    // </div>
 
   );
 }

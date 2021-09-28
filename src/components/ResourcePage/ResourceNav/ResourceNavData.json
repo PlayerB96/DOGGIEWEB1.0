@@ -1,0 +1,14 @@
+{
+    "return": "Visita la página web de Dr. Tesis",
+    "soliCoti": "Solicita tu cotización",
+    "title": "Centro de Recursos",
+    "features" : {
+        "home" : "INICIO",
+        "turniting" : "TURNITING",
+        "articles" : "ARTÍCULOS",
+        "eg" : "EBOOKS & GUÍAS",
+        "advisory" : "ASESORÍA ONLINE",
+        "news" : "NOTICIAS",
+        "search" : "BUSQUEDA"
+    }
+}
