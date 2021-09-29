@@ -1,8 +1,9 @@
 .container {
     .first-container {
         z-index: 1;
-        transform: translate(14%,70%);
+        // transform: translate(14%,70%);
         .container1 {
+            transform: translate(14%,70%);
             background: #ffffff;
             text-align: left;
             font-family: "Montserrat";
