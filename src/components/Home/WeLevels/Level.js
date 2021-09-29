@@ -9,7 +9,6 @@ export default function Level(props){
 
         <h1 id="Tittle1">{props.data.lvlTittle1}</h1>
         <h1 id="Tittle2">{props.data.lvlTittle2}</h1>
-
         <div className="Container-Menu">
             <div className="Box-Button">
                 <a className="button">{props.data.nav1}</a>

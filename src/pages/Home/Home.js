@@ -5,7 +5,8 @@ import AboutUsFrame from '../../components/Home/AboutUsFrame/AboutUsFrame';
 import Services from '../../components/Home/OurServices/Services';
 import HomeData from "./HomeData.json"
 import FinalSection from '../../components/Home/FinalSection/FinalSection';
-import WeLevels from '../../components/ServicesPage/WeLevels/Level.js'
+import WeLevels from '../../components/Home/WeLevels/Level.js'
+import Frame from '../../components/Home/Frame/Frame.js'
 // const dataBenefits = [
 //     "Originalidad de trabajo elaborado.",
 //     "Levantamiento de observaciones al 100%, hasta que se apruebe el trabajo.",
@@ -26,6 +27,7 @@ export default function Home() {
             <Benefits data={HomeData.benefits} />
             <Services />
             <WeLevels data={HomeData.levels}/>
+            <Frame />
             <FinalSection data={HomeData.finalSection} />
         </div>
     )
