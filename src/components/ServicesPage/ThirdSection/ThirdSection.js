@@ -4,7 +4,7 @@ import Point from '../../../assets/imgs/ThirdSection/Point.png';
 import './ThirdSection.scss';
 export default function ThirdSection(props){
     return(
-        <div className="Container">
+        <div className="servicesThirdSectionContainer">
             <div className="Left">
                 <div className="Container-Description">
                         <h1>{props.data.t1}</h1>
