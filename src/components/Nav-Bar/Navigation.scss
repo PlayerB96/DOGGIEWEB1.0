@@ -32,7 +32,7 @@
                 margin-right: 5%;
             }
         }
-        .left:hover{
+        .left:hover {
             cursor: pointer;
         }
 
@@ -113,11 +113,27 @@
         }
 
         .nav-g-btn {
+            position: relative;
             font-family: "Montserrat";
             background: #fff;
             border: 1.5px solid #c6c6c6;
             box-shadow: 1px 1px 3px #c6c6c6;
             border-radius: 8px;
+            .hoverBtn {
+                position: absolute;
+                background-color: white;
+                bottom: 0;
+                left: -1px;
+                width: 100%;
+                height: auto;
+                z-index: 5;
+                filter: drop-shadow(2px 2px 2px rgb(0 0 0 / 0.7));
+                border-radius: 0 8px 8px 8px;
+                transform: translateY(calc(100% + 10px));
+            }
+            .hoverBtn:hover {
+                cursor: auto;
+            }
         }
 
         .nav-g-btn:hover {
@@ -125,6 +141,7 @@
         }
 
         .nav-btn {
+            position: relative;
             font-family: "Montserrat";
             border-radius: 8px;
             border: none;
@@ -395,7 +412,7 @@
         }
 
         .nav {
-            // margin: 10px 100px 0 100px;  
+            // margin: 10px 100px 0 100px;
             .nav-logo {
                 height: 55px;
                 width: auto;

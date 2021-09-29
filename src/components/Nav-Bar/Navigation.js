@@ -3,6 +3,7 @@ import search from '../../assets/imgs/search.svg'
 import logArrow from '../../assets/imgs/logArrow.svg'
 import logo from '../../assets/imgs/logo.svg'
 import botArrow from '../../assets/imgs/NavBar/arrowBot.svg'
+import hover1 from '../../assets/imgs/NavBar/1hover.svg'
 
 import { useHistory } from "react-router-dom";
 
@@ -40,27 +41,41 @@ export default function Navigation(props) {
                     history.push("/");
                     window.scrollTo(0, 0);
                 }} />
+
                 <button className="nav-g-btn" onClick={() => {
                     history.push("/services");
                     window.scrollTo(0, 0);
                 }}>
-                    {props.data.navigation.service}
+                    <div className="text">{props.data.navigation.service}</div>
+                    {/* <div className="hoverBtn">
+                        <div>a</div>
+                        <div>a</div>
+                        <div>a</div>
+                    </div> */}
                 </button>
+
+
                 <button className="nav-g-btn" onClick={() => {
                     history.push("/resources");
                     window.scrollTo(0, 0);
                 }}>
                     {props.data.navigation.resources}
                 </button>
+
                 <button className="nav-g-btn" onClick={() => {
                     history.push("/news");
                     window.scrollTo(0, 0);
                 }}>
                     {props.data.navigation.news}
                 </button>
-                <button className="nav-g-btn">
+
+                <button className="nav-g-btn" onClick={() => {
+                    history.push("/aboutus");
+                    window.scrollTo(0, 0);
+                }}>
                     {props.data.navigation.aboutus}
                 </button>
+
                 <button className="nav-btn" onClick={() => {
                     history.push("/form");
                     window.scrollTo(0, 0);
