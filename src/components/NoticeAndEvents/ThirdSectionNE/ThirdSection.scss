@@ -1,10 +1,12 @@
 .Container{
+    margin-top: 35%;
     width: 100%;
     display: flex;
-    margin: auto;
+    justify-content: space-around;
     .Box-Image{
-        width: 50%;
+        width: 45%;
         margin-top: 4%;
+        margin: auto;
         #img{
             width: 100%;
         }
@@ -12,9 +14,9 @@
     .Box-Text{
         display: flex;
         flex-direction: column;
-        width: 47%;
+        width: 40%;
         margin: auto;
-        margin-right: 5%;
+        margin-right: 10%;
         h1{
             margin: -1%;
         }
@@ -37,6 +39,57 @@
             color: #FFFFFF;
             padding: 2%;
             border-radius: 7px;
+        }
+    }
+
+}
+@media (max-width: 1240px) {
+    .Container{
+        .Box-Image{
+            width: 45%;
+            margin-top: 5%;
+            margin-right: 0px;
+        }
+        .Box-Text{
+            width: 55%;
+            margin: auto;
+            margin-right: 3%;
+            margin-bottom:  auto;
+            margin-left:  0px;
+            h1{
+                font-size: 180%;
+            }
+            h2{
+                font-size: 140%;
+            }
+        }
+    }
+}
+@media (max-width: 894px) {
+    .Container{
+        .Box-Image{
+            width: 40%;
+            margin: auto;
+        }
+        .Box-Text{
+            width: 60%;
+            margin: auto;
+            h1{
+                font-size: 120%;
+            }
+            h2{
+                font-size: 80%;
+            }
+            h3{
+                font-size: 70%;
+            }
+            p{
+                font-size: 60%;
+            }
+        }
+        a{ 
+            font-size: 65%;
+            width: 10%;
         }
     }
 }
