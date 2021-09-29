@@ -1,17 +1,13 @@
-.fs-container{
-    padding: 3%;
+.fs-container {
     position: relative;
     font-family: "Montserrat";
-    width: 80%;
-    .fs-bkg-img{
+    .fs-bkg-img {
         z-index: -1;
-        width: 90%;
-        position: relative;
-        right: -20%;
+        position: relative;        
     }
-    .fs-frames-container{
+    .fs-frames-container {
         // background: red;
-        height: 750px;
+        height: 95%;
         display: flex;
         flex-direction: row;
         justify-content: left;
@@ -19,55 +15,164 @@
         top: 0;
         z-index: 0;
 
-        .title{
-            color: #F39205;
-            font-size: 25px;
+        .title {
+            color: #f39205;
             font-weight: 500;
-            padding: 0 7%;
         }
 
         .text{
-            padding: 5% 7%;
-            font-size: 14px;
             font-weight: 500;
         }
 
-        .info{
-            padding: 5% 7%;
-            font-size: 14px;
+        .info {
             font-weight: 500;
-            color: #F39205;
+            color: #f39205;
             text-decoration: underline;
         }
 
-        .frame-box{
+        .frame-box-2 {
             background: #fff;
-            margin-bottom: 8%;
-            height: 100%;
-            border-radius: 9px;
-            box-shadow: -10px 6px 0 6px #E3E4E6E5;
-            .box-content{
-                margin-top: 35%;
-            }
-        }
-        .first-frame{
-            margin: 0 5%;
-            width: 55%;
-            
         }
 
-        .second-frame{
+        .frame-box-1 {
+            position: absolute;
+            background: #fff;
+        }
+
+        .second-frame {
             display: flex;
             flex-direction: column;
             justify-content: flex-start;
-            margin: 0 3% ;
-            width: 65%;
+        }
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    .fs-container {
+        margin-top: 5%;
+        padding: 3%;
+        width: 80%;
+        .fs-bkg-img {
+            width: 90%;
+            right: -20%;
         }
 
-        .third-frame{
-            width: 75%;
-            height: 40%;
-            
+        .fs-frames-container {
+            // background: red;
+            height: 95%;
+            top: 0;
+            .title {
+                font-size: 45px;
+                padding: 0 7%;
+            }
+    
+            .text {
+                padding: 5% 10% 5% 7%;
+                font-size: 25px;
+            }
+    
+            .info {
+                padding: 5% 7%;
+                font-size: 25px;
+            }
+    
+            .frame-box-2 {
+                margin-bottom: 9%;
+                height: 46%;
+                border-radius: 9px;
+                box-shadow: -6px 6px 0 6px #e3e4e6e5;
+                .box-content-2 {
+                    margin-top: 35%;
+                }
+            }
+    
+            .frame-box-1 {
+                top: 18%;
+                height: 43%;
+                border-radius: 9px;
+                box-shadow: -6px 6px 0 6px #e3e4e6e5;
+                .box-content-1 {
+                    margin-top: 35%;
+                }
+            }
+            .first-frame {
+                margin: 0 3% 0 6%;
+                width: 50%;
+            }
+    
+            .second-frame {
+                margin: 0 3%;
+                width: 50%;
+            }
+    
+            .third-frame {
+                width: 50%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .fs-container {
+        margin-top: 5%;
+        padding: 3%;
+        width: 80%;
+        .fs-bkg-img {
+            width: 90%;
+            right: -20%;
+        }
+
+        .fs-frames-container {
+            // background: red;
+            height: 95%;
+            top: 0;
+            .title {
+                font-size: 25px;
+                padding: 0 7%;
+            }
+    
+            .text {
+                padding: 5% 10% 5% 7%;
+                font-size: 17px;
+            }
+    
+            .info {
+                padding: 5% 7%;
+                font-size: 17px;
+            }
+    
+            .frame-box-2 {
+                margin-bottom: 9%;
+                height: 46%;
+                border-radius: 9px;
+                box-shadow: -6px 6px 0 6px #e3e4e6e5;
+                .box-content-2 {
+                    margin-top: 35%;
+                }
+            }
+    
+            .frame-box-1 {
+                top: 18%;
+                height: 43%;
+                border-radius: 9px;
+                box-shadow: -6px 6px 0 6px #e3e4e6e5;
+                .box-content-1 {
+                    margin-top: 35%;
+                }
+            }
+            .first-frame {
+                margin: 0 3% 0 6%;
+                width: 50%;
+            }
+    
+            .second-frame {
+                margin: 0 3%;
+                width: 50%;
+            }
+    
+            .third-frame {
+                width: 50%;
+            }
         }
     }
 }

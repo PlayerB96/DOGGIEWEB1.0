@@ -19,8 +19,8 @@ export default function FourthSection(props) {
                     </div>
                 </div>
                 <div className="second-frame">
-                    <div className="frame-box">
-                        <div className="box-content">
+                    <div className="frame-box-2">
+                        <div className="box-content-2">
                             <div className="title">
                                 {props.data.box2.title}
                             </div>
@@ -32,8 +32,8 @@ export default function FourthSection(props) {
                             </div>
                         </div>
                     </div>
-                    <div className="frame-box">
-                        <div className="box-content">
+                    <div className="frame-box-2">
+                        <div className="box-content-2">
                             <div className="title">
                                 {props.data.box3.title}
                             </div>
@@ -49,8 +49,8 @@ export default function FourthSection(props) {
 
                 </div>
                 <div className="third-frame">
-                    <div className="frame-box">
-                        <div className="box-content">
+                    <div className="frame-box-1">
+                        <div className="box-content-1">
                             <div className="title">
                                 {props.data.box4.title}
                             </div>
