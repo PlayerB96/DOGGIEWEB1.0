@@ -6,6 +6,8 @@ import ThirdData from '../../components/ServicesPage/ThirdSection/ThirdData.json
 import FourthSection from '../../components/ServicesPage/FourthSection/FourthSection'
 import FourthData from '../../components/ServicesPage/FourthSection/FourthData.json'
 import FifthSection from '../../components/ServicesPage/FifthSection/FifthSection'
+import SixthSection from '../../components/ServicesPage/SixthSection/SixthSection'
+import SixthData from "../../components/ServicesPage/SixthSection/SixthData.json"
 export default function ServicesPage() {
     return (
         <div>
@@ -14,6 +16,7 @@ export default function ServicesPage() {
             <ThirdSection data={ThirdData.thirdSection}/>
             <FourthSection data={FourthData.fourthSection}/>
             <FifthSection/>
+            <SixthSection data={SixthData.sixthSection}/>
         </div>
     )
 }
