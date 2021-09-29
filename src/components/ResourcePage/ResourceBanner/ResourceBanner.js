@@ -6,7 +6,7 @@ import arrow from "../../../assets/imgs/arrow.svg";
 export default function ResourceBanner(props){
 
     return(
-        <div>
+        <div className="banner-container">
             <img className="banner-bkg" src={bannerBkg} alt=""/>
             <div className="info-frame">
                 <div className="title-b">
