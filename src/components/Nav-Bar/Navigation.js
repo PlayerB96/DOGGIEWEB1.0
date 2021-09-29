@@ -46,10 +46,16 @@ export default function Navigation(props) {
                 }}>
                     {props.data.navigation.service}
                 </button>
-                <button className="nav-g-btn">
+                <button className="nav-g-btn" onClick={() => {
+                    history.push("/resources");
+                    window.scrollTo(0, 0);
+                }}>
                     {props.data.navigation.resources}
                 </button>
-                <button className="nav-g-btn">
+                <button className="nav-g-btn" onClick={() => {
+                    history.push("/news");
+                    window.scrollTo(0, 0);
+                }}>
                     {props.data.navigation.news}
                 </button>
                 <button className="nav-g-btn">
