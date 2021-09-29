@@ -5,7 +5,6 @@ import AboutUsFrame from '../../components/Home/AboutUsFrame/AboutUsFrame';
 import Services from '../../components/Home/OurServices/Services';
 import HomeData from "./HomeData.json"
 import FinalSection from '../../components/Home/FinalSection/FinalSection';
-
 // const dataBenefits = [
 //     "Originalidad de trabajo elaborado.",
 //     "Levantamiento de observaciones al 100%, hasta que se apruebe el trabajo.",

@@ -1,3 +1,30 @@
+.titleColor1 {
+    background-color: #cccc33;
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: #cccc33;
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+}
+
+.titleColor2 {
+    background-color: #000033;
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: #000033;
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+}
+.bordes {
+    border-width: 0.5px;
+    border-style: solid;
+}
+.bordesInv {
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: white;
+}
+
 .docBody {
     width: 797.48px;
     height: 1127.2px;
@@ -20,7 +47,7 @@
             width: 550px;
             height: auto;
             position: absolute;
-            top: 45%;
+            top: 40%;
             left: 15%;
             z-index: 2;
         }
@@ -30,9 +57,6 @@
             position: absolute;
             top: 17%;
             left: 41px;
-            -webkit-print-color-adjust: exact;
-            color-adjust: exact;
-            background-color: #000033;
         }
     }
 }
@@ -58,13 +82,14 @@
             flex-wrap: wrap;
             padding: 1px;
             .cell {
-                margin-top: -1.5px;
-                margin-left: -1.5px;
+                margin-top: -0.75px;
+                margin-left: -0.75px;
                 border-style: solid;
                 font-family: "Roboto", sans-serif;
+                font-size: 12px;
                 text-align: left;
                 width: 143px;
-                font-size: 12px;
+
                 height: 17.15px;
                 border-width: 1.5px;
             }
@@ -90,33 +115,24 @@
         border-width: 1.5px;
     }
     .littleCellsLeft {
-        // width: 324.72px;
         width: 19.768%;
         height: 100%;
-        display: flex;
-        flex-direction: column;
         .leftSon {
-            margin-left: -1.5px;
-            margin-bottom: -1.5px;
+            margin-left: -0.75px;
+            margin-bottom: -0.75px;
             height: 48%;
             border-width: 1.5px;
             border-style: solid;
             font-family: "Roboto", sans-serif;
             text-align: left;
         }
-        // padding: 1px;
     }
     .littleCellsRight {
-        // width: 324.72px;
         width: 29.652%;
         height: 100%;
-
-        // padding: 1px;
         .rightSon {
-            margin-left: -1.5px;
-            margin-bottom: -1.5px;
-            // margin-top: 0.5px;
-            // padding-bottom: inherit;
+            margin-left: -0.75px;
+            margin-bottom: -0.75px;
             height: 48%;
             border-style: solid;
             border-width: 1.5px;
@@ -136,21 +152,42 @@
     height: 34.79px;
     width: 620px;
     z-index: 5;
-    // border-style: solid;
-
     .leftSon {
         width: 50.55%;
         -webkit-print-color-adjust: exact;
         color-adjust: exact;
-        background-color: #cccc33;
         height: 100%;
+        display: flex;
+        flex-direction: row;
+        .item {
+            width: 21.18%;
+            height: 100%;
+        }
+        .details {
+            width: 78.82%;
+            height: 100%;
+        }
     }
     .rightSon {
         width: 49.45%;
         -webkit-print-color-adjust: exact;
         color-adjust: exact;
-        background-color: #000033;
+
         height: 100%;
+        display: flex;
+        flex-direction: row;
+        .hours {
+            width: 47.76%;
+            height: 100%;
+        }
+        .cost {
+            width: 24.32%;
+            height: 100%;
+        }
+        .import {
+            width: 27.92%;
+            height: 100%;
+        }
     }
 }
 
@@ -161,20 +198,171 @@
     flex-direction: row;
     position: absolute;
     flex-wrap: nowrap;
-    height: 480px;
+    height: 400px;
     width: 590px;
-    border-style: solid;
-    border-width: 1.5px;
-    // background-color: blue;
-
     .item {
+        width: 7.77%;
+        height: 100%;
+        border-width: 1.5px;
+        border-style: solid;
     }
     .details {
+        margin-left: -0.75px;
+        width: 43.48%;
+        height: 100%;
+        border-width: 1.5px;
+        border-style: solid;
     }
     .hours {
+        margin-left: -0.75px;
+        width: 21.17%;
+        height: 100%;
+        border-width: 1.5px;
+        border-style: solid;
     }
     .cost {
+        margin-left: -0.75px;
+        width: 12.52%;
+        height: 100%;
+        border-width: 1.5px;
+        border-style: solid;
     }
     .import {
+        margin-left: -0.75px;
+        width: 15.06%;
+        height: 100%;
+        border-width: 1.5px;
+        border-style: solid;
     }
+}
+.fourthBodyCells {
+    top: 954.5%;
+    left: -110%;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    flex-wrap: nowrap;
+    height: 51.39px;
+    width: 590px;
+    background-color: #cccccc;
+
+    .comments {
+        width: 72.42%;
+        height: 100%;
+    }
+    .cost {
+        width: 12.52%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        .son {
+            margin-top: 1px;
+            margin-left: -2px;
+            border-width: 1.5px;
+            font-family: "Roboto", sans-serif;
+            font-size: 10px;
+            height: 38%;
+            width: 100%;
+        }
+    }
+    .import {
+        width: 14.9%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        .son {
+            margin-top: -1.5px;
+            margin-left: -2px;
+            border-width: 1.5px;
+            border-style: solid;
+            height: 33.33%;
+            width: 100%;
+        }
+    }
+}
+
+.description {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    top: 1080%;
+    left: -110%;
+    height: 16px;
+    width: 235px;
+    padding: 2px;
+    .left {
+        width: 50%;
+        height: 100%;
+    }
+    .center {
+        width: 23%;
+        height: 100%;
+    }
+    .right {
+        width: 23%;
+        height: 100%;
+    }
+}
+
+.cotRightText {
+    position: absolute;
+    top: 1140%;
+    left: 8%;
+    font-style: italic;
+}
+
+.bottomLogo1{
+    position: absolute;
+    top: 92%;
+    left: 15%;
+    height: 16.536px;
+    width: 16.308px;
+  
+}
+.bottomLogo2{
+    position: absolute;
+    top: 92%;
+    left: 35%;
+    height: 16.536px;
+    width: 16.308px;
+}
+.bottomLogo3{
+    position: absolute;
+    top: 92%;
+    left: 55%;
+    height: 16.536px;
+    width: 16.308px;
+}
+.bottomLogo4{
+    position: absolute;
+    top: 92%;
+    left: 75%;
+    height: 16.536px;
+    width: 16.308px;
+}
+.Logo1Text{
+    position: absolute;
+    top: 90.2%;
+    left: 18%;
+
+}
+.Logo2Text{
+    position: absolute;
+    top: 90.2%;
+    left: 38%;
+
+}
+.Logo3Text{
+    position: absolute;
+    top: 90.2%;
+    left: 58%;
+
+}
+.Logo4Text{
+    position: absolute;
+    top: 90.5%;
+    left: 78%;
+    font-size: 11px;
+
 }
