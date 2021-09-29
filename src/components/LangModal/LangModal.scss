@@ -1,4 +1,4 @@
-.backgroundLangModal{
+.backgroundLangModal {
     position: fixed;
     top: 0;
     width: 100%;
@@ -8,28 +8,171 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    .modalContainer{
+    .modalContainer {
         width: 95%;
         height: 95%;
         background-color: rgb(255, 255, 255);
         border-radius: 15px;
-        
-        .upContainer{
+
+        .upContainer {
             display: flex;
             flex-direction: row;
             justify-content: space-between;
-            padding: 3%;
-            .logo{
-
+            padding: 2% 3%;
+            .logo {
+                height: auto;
             }
-            .exitBtn{
+            .exitBtn {
+                border: none;
+                height: min-content;
+                background: #fff;
+                color: #ffc700;
+            }
 
+            .exitBtn:hover {
+                cursor: pointer;
             }
         }
-        .bodyModal{
-            padding-left: 15%;
+        .bodyModal {
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            .body-modal-title {
+                font-family: "Montserrat";
+                color: #ffc700;
+                font-weight: 500;
+            }
 
+            .continent-lan-title{
+                font-family: "Montserrat";
+                color: #161615;
+                font-weight: 700;
+                margin: 1% 0;
+            }
+
+            .continent-lan-container{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                .continent-lan{
+                    display: flex;
+                    flex-direction: row;
+                    .lan-info{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: justify;
+                    }
+                }
+                .continent-lan:hover{
+                    cursor: pointer;
+                }
+            }
         }
     }
+}
 
+@media screen and (max-width: 1920px){
+    .backgroundLangModal {
+        .modalContainer {
+            width: 95%;
+            height: 95%;    
+            .upContainer {
+                padding: 2% 3%;
+                .logo {
+                    height: 90px;
+                    width: auto;
+                }
+                .exitBtn {
+                    border: none;
+                    height: min-content;
+                    background: #fff;
+                    color: #ffc700;
+                    font-size: 20px;
+                }
+            }
+            .bodyModal {
+                padding: 0 18%;
+                .body-modal-title {
+                    font-size: 58px;
+                    font-weight: 500;
+                }
+    
+                .continent-lan-title{
+                    font-size: 30px;
+                }
+    
+                .continent-lan-container{
+                    margin-bottom: 3%;
+                    .continent-lan{
+                        .location{
+                            margin: 4% 4px 0 0;
+                            height: 23px;
+                        }
+                        .lan-info{    
+                            .country{
+                                font-size: 25px;
+                                font-weight: 400;
+                            }
+    
+                            .lan{
+                                font-size: 17px;
+                                font-weight: 400;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1366px){
+    .backgroundLangModal {
+        .modalContainer {
+            width: 95%;
+            height: 95%;    
+            .upContainer {
+                padding: 2% 3%;
+                .logo {
+                    height: 60px;
+                    width: auto;
+                }
+                .exitBtn {
+                    font-size: inherit;
+                }
+            }
+            .bodyModal {
+                padding: 0 18%;
+                .body-modal-title {
+                    font-size: 48px;
+                    font-weight: 500;
+                }
+    
+                .continent-lan-title{
+                    font-size: 23px;
+                }
+    
+                .continent-lan-container{
+                    margin-bottom: 3%;
+                    .continent-lan{
+                        .location{
+                            margin: 4% 4px 0 0;
+                            height: 18px;
+                        }
+                        .lan-info{    
+                            .country{
+                                font-size: 18px;
+                                font-weight: 400;
+                            }
+    
+                            .lan{
+                                font-size: 14px;
+                                font-weight: 400;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
