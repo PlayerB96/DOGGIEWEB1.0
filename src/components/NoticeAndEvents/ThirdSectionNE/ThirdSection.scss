@@ -1,5 +1,5 @@
-.Container{
-    margin-top: 35%;
+.Container-NoticeAndEvents-ThirdSection{
+    margin-top: 10%;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -44,7 +44,7 @@
 
 }
 @media (max-width: 1240px) {
-    .Container{
+    .Container-NoticeAndEvents-ThirdSection{
         .Box-Image{
             width: 45%;
             margin-top: 5%;
@@ -66,7 +66,7 @@
     }
 }
 @media (max-width: 894px) {
-    .Container{
+    .Container-NoticeAndEvents-ThirdSection{
         .Box-Image{
             width: 40%;
             margin: auto;
