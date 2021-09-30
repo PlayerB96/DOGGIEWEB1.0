@@ -1,6 +1,4 @@
-.tools-lader-container{
-    // 
-    
+.tools-lader-container-dynamic{
     z-index: 100;
     width: 100%;
     bottom: 0;
@@ -31,6 +29,27 @@
         margin: 0;
         // padding-right: 1%;
         margin-bottom: -7%;
+    }
+
+    .rightBtn:hover{
+        cursor: pointer;
+    }
+}
+
+.tools-lader-container-static{
+    z-index: 100;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    display: flex;
+    flex-direction:row;
+    justify-content: right;
+
+
+    .rightBtn{
+        transform: scale(0.7);
+        margin: 0;
+        margin-bottom: 2.05%;
     }
 
     .rightBtn:hover{

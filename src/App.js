@@ -34,12 +34,12 @@ function App() {
         <Route path="/" exact>
           <Navigation data={NavData} openLangModal={OpenLangModal} />
           <Home />
-          <ToolsLaders/>
+          <ToolsLaders hb='500' hh='200'/>
         </Route>
         <Route path="/services" exact>
           <Navigation data={NavData} openLangModal={OpenLangModal} />
           <ServicesPage />
-          <ToolsLaders/>
+          <ToolsLaders hb='500' hh='200'/>
         </Route>
         <Route path="/resources" exact>
           <ResourcePage />
@@ -47,18 +47,18 @@ function App() {
         <Route path="/news" exact>
           <Navigation data={NavData} openLangModal={OpenLangModal} />
           <NoticeAndEvents />
-          <ToolsLaders/>
+          <ToolsLaders hb='500' hh='200'/>
         </Route>
         <Route path="/aboutus" exact>
           <Navigation data={NavData} openLangModal={OpenLangModal} />
           <AboutUs />
-          <ToolsLaders/>
+          <ToolsLaders hb='500' hh='200'/>
         </Route>
 
         <Route path="/form" exact>
           <Navigation data={NavData} openLangModal={OpenLangModal} />
           <Cotizacion />
-          <ToolsLaders/>
+          <ToolsLaders hb='500' hh='200'/>
         </Route>
 
         {openLangModal && <LangModal modalAction={OpenLangModal} data={LangModalJSON} />}

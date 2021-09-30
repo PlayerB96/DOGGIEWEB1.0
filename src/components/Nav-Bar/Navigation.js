@@ -3,14 +3,13 @@ import search from '../../assets/imgs/search.svg'
 import logArrow from '../../assets/imgs/logArrow.svg'
 import logo from '../../assets/imgs/logo.svg'
 import botArrow from '../../assets/imgs/NavBar/arrowBot.svg'
-import hover1 from '../../assets/imgs/NavBar/1hover.svg'
-
+import { useState } from 'react';
 import { useHistory } from "react-router-dom";
 
 
 export default function Navigation(props) {
 
-
+    const [openBox, setStateBox] = useState(false);
     const history = useHistory();
     return (
         <div className="nav-container">
@@ -42,17 +41,17 @@ export default function Navigation(props) {
                     window.scrollTo(0, 0);
                 }} />
 
-                <button className="nav-g-btn" onClick={() => {
-                    history.push("/services");
-                    window.scrollTo(0, 0);
-                }}>
-                    <div className="text">{props.data.navigation.service}</div>
-                    {/* <div className="hoverBtn">
-                        <div>a</div>
-                        <div>a</div>
-                        <div>a</div>
-                    </div> */}
-                </button>
+                <div>
+                    <button className="nav-g-btn" onClick={() => {
+                        history.push("/services");
+                        window.scrollTo(0, 0);
+                    }}>
+                        <div className="text">{props.data.navigation.service}</div>
+
+                    </button>
+                </div>
+
+
 
 
                 <button className="nav-g-btn" onClick={() => {

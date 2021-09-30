@@ -5,6 +5,7 @@ import './ToolsLaders.scss'
 import { useState, useEffect } from 'react'
 export default function ToolsLaders(props) {
     const [isVisible, setIsVisible] = useState(true);
+    const [isBlocked, setBlocked] = useState(false);
     const [height, setHeight] = useState(0)
 
     useEffect(() => {
@@ -13,30 +14,48 @@ export default function ToolsLaders(props) {
             window.removeEventListener("scroll", listenToScroll);
     }, [])
 
+
     const listenToScroll = () => {
-        let heightToHideFrom = 200;
+        let heightToHideFrom = props.hh;
+        let heightToBlock = props.hb;
         const winScroll = document.body.scrollTop ||
             document.documentElement.scrollTop;
         setHeight(winScroll);
 
         if (winScroll > heightToHideFrom) {
-            isVisible && setIsVisible(false);
+            setIsVisible(false);
         } else {
             setIsVisible(true);
         }
+
+        if (winScroll > heightToBlock) {
+            isBlocked && setBlocked(true);
+        } else {
+            setBlocked(true);
+        }
     };
 
-    return (
-        <div className="tools-lader-container">
-            {
-                !isVisible
-                && <div className="leftBtn" onClick={UpAction}>
+    let leftBtn;
+    if (!isVisible) {
+        leftBtn =
+            <div className="tools-lader-container-dynamic">
+                <div className="leftBtn" onClick={UpAction}>
                     <div className="text">VOLVER ARRIBA</div>
                     <img src={arrowUp} alt="arrowUp"></img>
                 </div>
-            }
-            <img className="rightBtn" onClick={WsspAction} src={wsspIcon} alt="wsspIcon"></img>
-        </div>
+                <img className="rightBtn" onClick={WsspAction} src={wsspIcon} alt="wsspIcon"></img>
+            </div>;
+    } else {
+        leftBtn =
+            <div className="tools-lader-container-static">
+                <img className="rightBtn" onClick={WsspAction} src={wsspIcon} alt="wsspIcon"></img>
+            </div>;
+    }
+
+    return (
+        <>
+            {leftBtn}
+        </>
     )
 }
 
@@ -45,5 +64,9 @@ function UpAction() {
 }
 
 function WsspAction() {
+    const numerPhone = '51939206205';
+    const link = 'https://wa.me/' + numerPhone;
 
+    //window.location.href = link;
+    window.open(link, "_blank");
 }
