@@ -12,6 +12,8 @@ import LangModal from "./components/LangModal/LangModal";
 import LangModalJSON from './components/LangModal/LangModal.json';
 import { useState } from 'react';
 
+import ToolsLaders from "./components/ToolsLadders/ToolsLaders";
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -32,10 +34,12 @@ function App() {
         <Route path="/" exact>
           <Navigation data={NavData} openLangModal={OpenLangModal} />
           <Home />
+          <ToolsLaders/>
         </Route>
         <Route path="/services" exact>
           <Navigation data={NavData} openLangModal={OpenLangModal} />
           <ServicesPage />
+          <ToolsLaders/>
         </Route>
         <Route path="/resources" exact>
           <ResourcePage />
@@ -43,15 +47,18 @@ function App() {
         <Route path="/news" exact>
           <Navigation data={NavData} openLangModal={OpenLangModal} />
           <NoticeAndEvents />
+          <ToolsLaders/>
         </Route>
         <Route path="/aboutus" exact>
           <Navigation data={NavData} openLangModal={OpenLangModal} />
           <AboutUs />
+          <ToolsLaders/>
         </Route>
 
         <Route path="/form" exact>
           <Navigation data={NavData} openLangModal={OpenLangModal} />
           <Cotizacion />
+          <ToolsLaders/>
         </Route>
 
         {openLangModal && <LangModal modalAction={OpenLangModal} data={LangModalJSON} />}

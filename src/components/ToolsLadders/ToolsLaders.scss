@@ -1,0 +1,39 @@
+.tools-lader-container{
+    // 
+    
+    z-index: 100;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    
+    .leftBtn{
+        transform: scale(0.7);
+        // padding-left: 1%;
+        .text {
+            margin: auto;
+            margin-bottom: 25px;
+            writing-mode: vertical-lr;
+            transform: rotate(180deg);
+            font-weight: 800;
+            font-size: 150%;
+        }
+
+    }
+    .leftBtn:hover{
+        cursor: pointer;
+    }
+
+    .rightBtn{
+        transform: scale(0.7);
+        margin: 0;
+        // padding-right: 1%;
+        margin-bottom: -7%;
+    }
+
+    .rightBtn:hover{
+        cursor: pointer;
+    }
+}
