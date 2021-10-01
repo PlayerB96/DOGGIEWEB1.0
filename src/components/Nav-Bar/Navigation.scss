@@ -119,21 +119,21 @@
             border: 1.5px solid #c6c6c6;
             box-shadow: 1px 1px 3px #c6c6c6;
             border-radius: 8px;
-            .hoverBtn {
-                position: absolute;
-                background-color: white;
-                bottom: 0;
-                left: -1px;
-                width: 500px;
-                height: auto;
-                z-index: 5;
-                filter: drop-shadow(2px 2px 2px rgb(0 0 0 / 0.7));
-                border-radius: 0 8px 8px 8px;
-                transform: translateY(calc(100% + 10px));
-            }
-            .hoverBtn:hover {
-                cursor: auto;
-            }
+            // .hoverBtn {
+            //     position: absolute;
+            //     background-color: white;
+            //     bottom: 0;
+            //     left: -1px;
+            //     width: 500px;
+            //     height: auto;
+            //     z-index: 5;
+            //     filter: drop-shadow(2px 2px 2px rgb(0 0 0 / 0.7));
+            //     border-radius: 0 8px 8px 8px;
+            //     transform: translateY(calc(100% + 10px));
+            // }
+            // .hoverBtn:hover {
+            //     cursor: auto;
+            // }
         }
 
         .nav-g-btn:hover {

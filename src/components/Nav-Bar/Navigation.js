@@ -5,7 +5,8 @@ import logo from '../../assets/imgs/logo.svg'
 import botArrow from '../../assets/imgs/NavBar/arrowBot.svg'
 import { useState } from 'react';
 import { useHistory } from "react-router-dom";
-
+import ServicesPP from './Popups/ServicesPP'
+import ResourcesPP from './Popups/ResourcesPP'
 
 export default function Navigation(props) {
 
@@ -47,7 +48,7 @@ export default function Navigation(props) {
                         window.scrollTo(0, 0);
                     }}>
                         <div className="text">{props.data.navigation.service}</div>
-
+                        {/* <ServicesPP></ServicesPP> */}
                     </button>
                 </div>
 
@@ -59,6 +60,7 @@ export default function Navigation(props) {
                     window.scrollTo(0, 0);
                 }}>
                     {props.data.navigation.resources}
+                    {/* <ResourcesPP></ResourcesPP> */}
                 </button>
 
                 <button className="nav-g-btn" onClick={() => {

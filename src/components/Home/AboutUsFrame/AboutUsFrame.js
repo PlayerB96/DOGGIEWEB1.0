@@ -1,7 +1,7 @@
 
 import aboutImg from "../../../assets/imgs/About/about_frame.png"
 import "./AboutUsFrame.scss"
-export default function about_us_frame(props) {
+export default function AboutUsFrame(props) {
     return (
         <div className="aboutUsContainer">
             <div className="left">

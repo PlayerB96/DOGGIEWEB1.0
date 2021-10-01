@@ -34,7 +34,7 @@ function App() {
         <Route path="/" exact>
           <Navigation data={NavData} openLangModal={OpenLangModal} />
           <Home />
-          <ToolsLaders hb='500' hh='200'/>
+          <ToolsLaders hb='500' hh='1500'/>
         </Route>
         <Route path="/services" exact>
           <Navigation data={NavData} openLangModal={OpenLangModal} />

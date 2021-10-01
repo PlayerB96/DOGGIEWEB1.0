@@ -1,0 +1,78 @@
+.resources-pp {
+    position: absolute;
+    background-color: white;
+    bottom: 0;
+    left: -1px;
+    width: 150%;
+    height: auto;
+    z-index: 5;
+    filter: drop-shadow(2px 2px 2px rgb(0 0 0 / 0.7));
+    border-radius: 0 8px 8px 8px;
+    transform: translateY(calc(100% + 10px));
+    padding: 10% 10% 5% 10%;
+    display: flex;
+    flex-direction: column;
+    .generalContainer {
+        display: flex;
+        flex-direction: row;
+        // justify-content: space-between;
+        margin-bottom: 5%;
+        .left-item {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: auto;
+            .item {
+                display: flex;
+                flex-direction: column;
+                height: auto;
+                align-self: flex-start;
+                .title-item {
+                    align-self: flex-start;
+                    font-size: 85%;
+                    font-weight: 500;
+                    color: #ffc700;
+                    margin-bottom: 12%;
+                }
+                .content-item {
+                    align-self: flex-start;
+                    font-size: 80%;
+                    font-weight: 800;
+                }
+            }
+        }
+
+        .right-item {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: auto;
+            .item {
+                display: flex;
+                flex-direction: column;
+                height: auto;
+                margin-bottom: 1%;
+                align-self: flex-start;
+                .title-item {
+                    align-self: flex-start;
+                    font-size: 85%;
+                    font-weight: 500;
+                    color: #ffc700;
+                }
+                .subtitle-item {
+                    align-self: flex-start;
+                    font-size: 80%;
+                    font-weight: 800;
+                }
+                .content-item {
+                    align-self: flex-start;
+                    font-size: 60%;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}
+.services-pp:hover {
+    cursor: auto;
+}

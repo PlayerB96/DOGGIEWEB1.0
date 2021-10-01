@@ -1,0 +1,42 @@
+.services-pp {
+    position: absolute;
+    background-color: white;
+    bottom: 0;
+    left: -1px;
+    width: max-content;
+    height: auto;
+    z-index: 5;
+    filter: drop-shadow(2px 2px 2px rgb(0 0 0 / 0.7));
+    border-radius: 0 8px 8px 8px;
+    transform: translateY(calc(100% + 10px));
+    padding: 10%;
+    .title {
+        font-size: 100%;
+        font-weight: 500;
+    }
+    .parent-item {
+        display: flex;
+        flex-direction: row;
+        .item {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: auto;
+            margin-bottom: 1%;
+            .title-item {
+                align-self: flex-start;
+                font-size: 85%;
+                font-weight: 500;
+                color: #FFC700;
+            }
+            .content-item{
+                align-self: flex-start;
+                font-size: 60%;
+                font-weight: 500;
+            }
+        }
+    }
+}
+.services-pp:hover {
+    cursor: auto;
+}
