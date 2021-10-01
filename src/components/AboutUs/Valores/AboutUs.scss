@@ -1,0 +1,51 @@
+.mainContainer1 {
+    width: 100%;
+    height: 1300px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;
+    justify-content: center;
+
+    .firstRow {
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+        .firstTitle{
+            font-size: 20px;
+        }
+        .naranja {
+            color: orange;
+            font-size: 50px;
+        }
+    }
+
+    .secondRow {
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+
+        justify-content: center;
+        .rowSon {
+            width: 30%;
+            height: auto;
+            background-color: white;
+            padding: 10px;
+            text-align: left;
+            justify-items: left;
+            margin-left: auto;
+            margin-right: auto;
+            .text {
+                text-align: left;
+                color: black;
+                font-size: small;
+            }
+        }
+    }
+}
