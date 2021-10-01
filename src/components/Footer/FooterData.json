@@ -1,0 +1,26 @@
+{
+    "nav" : [
+        "Servicios",
+        "Recursos",
+        "Noticias & Eventos",
+        "Sobre Nosotros"
+    ],
+
+    "socials" : [
+        "Facebook",
+        "Instragram",
+        "Linkedin",
+        "Pinterest",
+        "Spotify",
+        "Twitter",
+        "Youtube"
+    ],
+
+    "contact" : {
+        "mail" : "asasasasasasasasas",
+        "phone" : "asasasasasas",
+        "adress" : "asasasasasasasasas asasasasasasasasas"
+    },
+
+    "copyright" : "Copyright © 2021 Instructure, Inc. All rights reserved. Various trademarks held by their respective owners"
+}

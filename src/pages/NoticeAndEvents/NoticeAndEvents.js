@@ -3,6 +3,7 @@ import FourSection from '../../components/NoticeAndEvents/FourSectionNE/FourSect
 import ThirdSection from '../../components/NoticeAndEvents/ThirdSectionNE/ThirdSection'
 import NEData from './NewsData.json'
 import FirstSection from '../../components/NoticeAndEvents/FirstSectionNE/FirstSection'
+
 export default function NoticeAndEvents() {
     return (
         <div>

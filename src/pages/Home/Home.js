@@ -7,6 +7,7 @@ import HomeData from "./HomeData.json"
 import FinalSection from '../../components/Home/FinalSection/FinalSection';
 import WeLevels from '../../components/Home/WeLevels/Level.js'
 import Frame from '../../components/Home/Frame/Frame.js'
+
 // const dataBenefits = [
 //     "Originalidad de trabajo elaborado.",
 //     "Levantamiento de observaciones al 100%, hasta que se apruebe el trabajo.",
