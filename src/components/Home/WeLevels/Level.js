@@ -1,5 +1,5 @@
 import react from "react";
-import ImgLevel from '../../../assets/imgs/ServicesPage/ImgLevel.png';
+import joshhild from '../../../assets/imgs/joshhild.jpg';
 import '../WeLevels/Level.scss';
 
 export default function Level(props){
@@ -43,7 +43,7 @@ export default function Level(props){
             </div>
             
             <div className="Box-Image">
-                <img className="Image" src={ImgLevel} alt="ImgLevel"></img>
+                <img className="Image" src={joshhild} alt="joshhild"></img>
             </div>
         </div>
     </div>

@@ -1,5 +1,5 @@
 import './Services.scss';
-import img from '../../../assets/imgs/Services/woman-with-headphones.png'
+import joshhild2 from '../../../assets/imgs/joshhild2.jpg'
 
 
 export default function Services(props) {
@@ -11,30 +11,30 @@ export default function Services(props) {
                 <div className='services'>SERVICIOS</div>
             </div>
             <div className='image-container'>
-                <img className='image' src={img} alt='woman-headphones' />
+                <img className='image' src={joshhild2} alt='joshhild2' />
             </div>
             <div className='buttons-container'>
                 <div className='button-1'>
                     <button className='button'>
-                        Tesis
+                        Guarderia
                     </button>
                     <div className='rectangle'></div>
                 </div>
                 <div className='button-1'>
                     <button className='button'>
-                        Plan de Tesis
+                        Bañado
                     </button>
                     <div className='rectangle'></div>
                 </div>
                 <div className='button-1'>
                     <button className='button'>
-                        Modelo <br /> de negocios
+                        Desparacitación
                     </button>
                     <div className='rectangle'></div>
                 </div>
                 <div className='button-1'>
                     <button className='button'>
-                        Plan <br /> de negocios
+                        Disciplina
                     </button>
                     <div className='rectangle'></div>
                 </div>

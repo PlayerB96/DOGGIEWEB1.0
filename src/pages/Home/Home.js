@@ -28,7 +28,6 @@ export default function Home() {
             <Benefits data={HomeData.benefits} />
             <Services />
             <WeLevels data={HomeData.levels}/>
-            <Frame />
             <FinalSection data={HomeData.finalSection} />
         </div>
     )
