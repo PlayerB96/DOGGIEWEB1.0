@@ -64,7 +64,7 @@ function UpAction() {
 }
 
 function WsspAction() {
-    const numerPhone = '51939206205';
+    const numerPhone = '51948156448';
     const link = 'https://wa.me/' + numerPhone;
 
     //window.location.href = link;

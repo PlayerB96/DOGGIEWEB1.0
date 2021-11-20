@@ -2,6 +2,7 @@ import './Navigation.scss'
 import search from '../../assets/imgs/search.svg'
 import logArrow from '../../assets/imgs/logArrow.svg'
 import logo from '../../assets/imgs/logo.svg'
+import logop from '../../assets/imgs/logop.jpg'
 import botArrow from '../../assets/imgs/NavBar/arrowBot.svg'
 import { useState } from 'react';
 import { useHistory } from "react-router-dom";
@@ -15,7 +16,7 @@ export default function Navigation(props) {
     return (
         <div className="nav-container">
             <div className="features">
-                <div className="left" onClick={props.openLangModal}>
+                <div className="left" onClick={""}>
                     <div className="languages">Latin America</div>
                     <img className="botArrow" src={botArrow} alt="botArrow"></img>
                 </div>
@@ -37,14 +38,14 @@ export default function Navigation(props) {
 
             </div>
             <div className="nav">
-                <img className="nav-logo" src={logo} alt="logo" onClick={() => {
+                <img className="nav-logo" src={logop} alt="logop" onClick={() => {
                     history.push("/");
                     window.scrollTo(0, 0);
                 }} />
 
                 <div>
                     <button className="nav-g-btn" onClick={() => {
-                        history.push("/services");
+                        history.push("/");
                         window.scrollTo(0, 0);
                     }}>
                         <div className="text">{props.data.navigation.service}</div>
@@ -56,7 +57,7 @@ export default function Navigation(props) {
 
 
                 <button className="nav-g-btn" onClick={() => {
-                    history.push("/resources");
+                    history.push("/");
                     window.scrollTo(0, 0);
                 }}>
                     {props.data.navigation.resources}
@@ -64,14 +65,14 @@ export default function Navigation(props) {
                 </button>
 
                 <button className="nav-g-btn" onClick={() => {
-                    history.push("/news");
+                    history.push("/");
                     window.scrollTo(0, 0);
                 }}>
                     {props.data.navigation.news}
                 </button>
 
                 <button className="nav-g-btn" onClick={() => {
-                    history.push("/aboutus");
+                    history.push("/");
                     window.scrollTo(0, 0);
                 }}>
                     {props.data.navigation.aboutus}

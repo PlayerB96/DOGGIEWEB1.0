@@ -1,5 +1,6 @@
 
 import aboutImg from "../../../assets/imgs/About/about_frame.png"
+import cottonbro from "../../../assets/imgs/About/cottonbro.jpg"
 import "./AboutUsFrame.scss"
 export default function AboutUsFrame(props) {
     return (
@@ -27,7 +28,7 @@ export default function AboutUsFrame(props) {
 
             <div className="right">
 
-                <img className="imagen" src={aboutImg} alt="" />
+                <img className="imagen" src={cottonbro} alt="cottonbro" />
                 <p className="textRight">
                     {props.data.rightText1}
                     <span className="naranja"> {props.data.rightTextOrange}</span>

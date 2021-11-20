@@ -25,7 +25,7 @@ export default function Home() {
         <div>
             <Presentation data={HomeData.presentation} />
             <AboutUsFrame data={HomeData.about} />
-            <Benefits data={HomeData.benefits} />
+            {/* <Benefits data={HomeData.benefits} /> */}
             <Services />
             <WeLevels data={HomeData.levels}/>
             <FinalSection data={HomeData.finalSection} />
