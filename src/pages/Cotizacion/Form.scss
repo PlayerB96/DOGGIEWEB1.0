@@ -86,22 +86,48 @@ $height_input: 70px;
         }
     }
 }
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 520px) {
     .form-block {
+    background: black;
         .left-container {
-            display: flex;
-            flex-direction: row;
-            margin: 20px 20px 20px 100px;
+            display: inline;
+            margin: 0 auto;
             align-items: center;
             .img-container {
                 background: #e3e4e6;
                 border-radius: 8px;
                 .student {
-                    width: 550px;
+                    width: 50px;
                     height: auto;
                     padding: 25px 25px 25px 25px;
                     transition: 0.5s;
                 }
+            }
+        }
+        .input-type-1 {
+            border-style: solid;
+            width: 210px;
+            align-items: center;
+            border-radius: 8px;
+            border-color: #e3e4e6;
+        }
+    
+        .input-type-2 {
+            border-style: solid;
+            width: 210px;
+            align-items: center;
+            border-radius: 8px;
+            border-color: #e3e4e6;
+        }
+    
+        .left-container {
+            display: flex;
+            margin: 20px 20px 20px 100px;
+            align-items: center;
+            .img-container {
+                background: #e3e4e6;
+                border-radius: 8px;
+                
             }
         }
     }

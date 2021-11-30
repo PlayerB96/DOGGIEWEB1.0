@@ -37,8 +37,9 @@
     }
 }
 
-@media screen and (max-width: 1920px){
+@media screen and (max-width: 520px){
     .middle-container{
+        background: black;
         transform: translateY(-15%);
         .middle-title{
             margin: 4% 0 2% 0;

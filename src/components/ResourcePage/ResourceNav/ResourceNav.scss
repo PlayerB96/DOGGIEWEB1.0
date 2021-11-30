@@ -70,8 +70,9 @@
     }
 }
 
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 520px) {
     .resource-nav-container {
+        background: black;
         .res-nav-header {
             .return {
                 margin: 35px 0 25px 100px;

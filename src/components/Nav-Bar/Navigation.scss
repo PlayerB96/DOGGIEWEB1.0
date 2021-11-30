@@ -160,24 +160,24 @@
     }
 }
 
-@media screen and (max-width: 2560px) {
+@media screen and (max-width: 360px) {
+
+        
     .nav-container {
+        background: black;
         .features {
             padding: 10px 0 10px 0;
             .search {
                 height: 30px;
             }
             .support {
-                font-size: 22px;
-                margin: 0 30px;
+                display :none;
             }
             .contact {
-                font-size: 22px;
-                margin: 0 30px;
+                display :none;
             }
             .login-btn {
-                font-size: 22px;
-                height: 45px;
+                display :none;
             }
         }
 
